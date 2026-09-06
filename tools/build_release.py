@@ -25,6 +25,7 @@ SPECIES = {
     "fishs_assets_fishingame_392_zubatka.bundle": "Wolffish",
     "fishs_assets_fishingame_538_haddy.bundle": "Haddock",
     "fishs_assets_fishingame_562_marlin.bundle": "Blue Marlin",
+    "fishs_assets_fishingame_353_terpg.bundle": "Black Cod",
     "fishs_assets_fishingame_2_ukleya.bundle": "Bleak",
     "fishs_assets_fishingame_4_okun.bundle": "Perch",
     "fishs_assets_fishingame_601_forelbalkanbig.bundle": "Balkan Trout - Large",

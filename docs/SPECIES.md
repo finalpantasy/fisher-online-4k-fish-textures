@@ -1,10 +1,11 @@
-# Included fish in v0.1.0
+# Included fish in v0.1.1
 
 | Fish | Coverage |
 |---|---|
 | Balkan Trout | Normal, large, and trophy bundles |
 | Beluga | Shared size material set |
 | Bleak | Normal, large, and trophy textures |
+| Black Cod | Shared size material set plus color, normal, gloss/metal, and alpha maps |
 | Blue Marlin | All color variants plus normal map; large-model UV correction |
 | Common Bream | Normal, large, and trophy textures plus material detail |
 | Common Carp | Normal, large, and trophy textures plus material detail |
@@ -32,7 +33,7 @@
 | Wolffish | Shared size material set |
 | Zander | Normal, large, and trophy textures |
 
-The release manifest contains 34 bundle-level entries because some fish use
+The release manifest contains 35 bundle-level entries because some fish use
 separate bundles for size tiers while others share one mesh and material set.
 
 Siberian lamprey is complete offline but is intentionally held for the next

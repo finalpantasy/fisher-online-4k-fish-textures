@@ -1,8 +1,10 @@
-## Fisher Online 4K Fish Textures v0.1.0
+## Fisher Online 4K Fish Textures v0.1.1
 
-First public preview release of the ongoing 4K fish overhaul.
+This update adds the fresh Black Cod overhaul to the public preview pack.
 
-- 34 version-locked bundle patches covering 29 named fish groups
+- 35 version-locked bundle patches covering 30 named fish groups
+- fresh 4096x4096 Black Cod albedo, normal, gloss/metal, and alpha maps
+- Black Cod source anatomy and UV layout retained across all shared size variants
 - normal, large, and trophy appearances where the game provides them
 - 4096x4096 color maps and upgraded normal/material maps
 - UV-preserving repaints with original meshes retained, apart from the verified

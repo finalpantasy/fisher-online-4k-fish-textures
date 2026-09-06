@@ -5,7 +5,7 @@ The pack rebuilds fish color maps at 4096x4096, preserves the original UV
 layouts, and adds restrained species-appropriate normal-map detail where the
 game materials support it.
 
-Release **0.1.0** contains 34 verified bundle patches covering the completed
+Release **0.1.1** contains 35 verified bundle patches covering the completed
 fish set listed in [docs/SPECIES.md](docs/SPECIES.md). It includes normal,
 large, and trophy appearances when those variants exist in the same bundle or
 have dedicated bundles in the game.
@@ -16,7 +16,7 @@ have dedicated bundles in the game.
    Files > Verify integrity of game files**, and let it finish. This gives the
    installer the exact supported source version.
 2. Close Fisher Online.
-3. Download `FisherOnline-4K-Fish-Textures-v0.1.0.zip` from the latest GitHub
+3. Download `FisherOnline-4K-Fish-Textures-v0.1.1.zip` from the latest GitHub
    release and extract it to a normal folder.
 4. Open PowerShell in the extracted folder and run:
 
@@ -85,5 +85,9 @@ shown on top and the rebuilt 4K texture on the bottom.
 | Common Bream Trophy | Zander Trophy |
 |---|---|
 | ![Common Bream before and after](previews/bream-trophy.jpg) | ![Zander before and after](previews/zander-trophy.jpg) |
+
+| Black Cod |
+|---|
+| ![Black Cod before and after](previews/black-cod.jpg) |
 
 More comparison renders are available in the [`previews`](previews) folder.
