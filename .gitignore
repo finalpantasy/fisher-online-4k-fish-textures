@@ -2,3 +2,5 @@ release-build/
 *.zip
 *.tmp
 __pycache__/
+*-v0.1.2.out.log
+*-v0.1.2.err.log

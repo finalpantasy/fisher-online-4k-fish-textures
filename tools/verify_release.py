@@ -10,7 +10,7 @@ import struct
 import tempfile
 from pathlib import Path
 
-from build_release import MAGIC, earliest_backup
+from build_release import MAGIC, load_journal_records, load_retained_pristine_sources
 
 
 def sha256(path: Path) -> str:
@@ -19,6 +19,13 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def source_from_hash(backup_root: Path, bundle: str, expected_hash: str) -> Path:
+    for candidate in sorted(backup_root.rglob(bundle)):
+        if sha256(candidate) == expected_hash:
+            return candidate
+    raise FileNotFoundError(f"No rollback source matching the manifest SHA-256 for {bundle}")
 
 
 def apply_patch(source: Path, patch: Path, output: Path) -> None:
@@ -52,14 +59,25 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--release", type=Path, required=True)
     parser.add_argument("--game-root", type=Path, required=True)
+    parser.add_argument("--artifacts", type=Path)
     args = parser.parse_args()
     release = args.release.resolve()
     backup_root = args.game_root.resolve() / "Mod Backups"
     manifest = json.loads((release / "manifest.json").read_text())
+    retained_sources = None
+    if args.artifacts:
+        artifacts = args.artifacts.resolve()
+        records = load_journal_records(artifacts)
+        retained_sources = load_retained_pristine_sources(
+            artifacts, {entry["bundle"] for entry in manifest["species"]}, records
+        )
     with tempfile.TemporaryDirectory(dir=release) as temporary:
         temp = Path(temporary)
         for index, entry in enumerate(manifest["species"], 1):
-            source = earliest_backup(backup_root, entry["bundle"])
+            source = (retained_sources[entry["bundle"]]["path"] if retained_sources
+                      else source_from_hash(backup_root, entry["bundle"], entry["source_sha256"]))
+            if sha256(source) != entry["source_sha256"]:
+                raise ValueError(f"Pristine source mismatch: {entry['bundle']}")
             patch = release / entry["patch"]
             if sha256(patch) != entry["patch_sha256"]:
                 raise ValueError(f"Patch hash mismatch: {patch.name}")

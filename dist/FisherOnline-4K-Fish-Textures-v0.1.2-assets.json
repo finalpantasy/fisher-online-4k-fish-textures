@@ -1,0 +1,24 @@
+{
+  "version": "0.1.2",
+  "max_archive_bytes": 1992294400,
+  "assets": [
+    {
+      "asset": "FisherOnline-4K-Fish-Textures-v0.1.2-part01-of03.zip",
+      "bytes": 1988417858,
+      "sha256": "866d6f4730a847237a7017474229884db05aad52644f755cc26c4fc290cdc820",
+      "bundles": 37
+    },
+    {
+      "asset": "FisherOnline-4K-Fish-Textures-v0.1.2-part02-of03.zip",
+      "bytes": 1976858596,
+      "sha256": "89587fe5d8c8dee75a425ec4a71a26f7d1775d88996e0d0921262a9c6c3bf21d",
+      "bundles": 49
+    },
+    {
+      "asset": "FisherOnline-4K-Fish-Textures-v0.1.2-part03-of03.zip",
+      "bytes": 226451452,
+      "sha256": "379cc5eeb5ac9ea39c7417f89059683e95d3e3cd347d78fc8428b2daa8efa07a",
+      "bundles": 5
+    }
+  ]
+}

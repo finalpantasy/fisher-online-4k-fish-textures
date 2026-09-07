@@ -5,10 +5,11 @@ The pack rebuilds fish color maps at 4096x4096, preserves the original UV
 layouts, and adds restrained species-appropriate normal-map detail where the
 game materials support it.
 
-Release **0.1.1** contains 35 verified bundle patches covering the completed
-fish set listed in [docs/SPECIES.md](docs/SPECIES.md). It includes normal,
-large, and trophy appearances when those variants exist in the same bundle or
-have dedicated bundles in the game.
+Release **0.1.2** contains **91 journal-backed bundle patches** from the
+current 310-bundle live inventory. Every included patch was rebuilt only after
+its installed live SHA-256 matched a unique successful journal lineage and an
+independently retained, authoritative pristine original. The release includes normal,
+large, and trophy appearances where the game has dedicated bundles.
 
 ## Install
 
@@ -16,30 +17,31 @@ have dedicated bundles in the game.
    Files > Verify integrity of game files**, and let it finish. This gives the
    installer the exact supported source version.
 2. Close Fisher Online.
-3. Download `FisherOnline-4K-Fish-Textures-v0.1.1.zip` from the latest GitHub
-   release and extract it to a normal folder.
+3. Download and extract every `v0.1.2` release part into separate normal
+   folders. Run each part's installer once; the order does not matter. The
+   archive split keeps every GitHub release asset safely below its 2 GiB limit.
 4. Open PowerShell in the extracted folder and run:
 
    ```powershell
-   powershell -NoProfile -ExecutionPolicy Bypass -File .\Install-Fisher4K.ps1
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\Install-Fisher4K.ps1 -GamePath "C:\Program Files (x86)\Steam\steamapps\common\theFisher Online"
    ```
 
-   If Steam is installed somewhere unusual, supply the game folder:
+   Replace that path if Steam is installed somewhere else:
 
    ```powershell
    powershell -NoProfile -ExecutionPolicy Bypass -File .\Install-Fisher4K.ps1 -GamePath "D:\SteamLibrary\steamapps\common\theFisher Online"
    ```
 
-The installer performs a full preflight before writing anything. It refuses to
-run while the game is open, verifies every source bundle and patch with
-SHA-256, creates a dated backup under `theFisher Online\Mod Backups`, stages
-each replacement, verifies the result, and rolls back the batch if any step
-fails. It does not terminate the game process.
+Each part's installer performs a full preflight before writing anything. It
+refuses to run while the game is open, verifies every source bundle and patch
+with SHA-256, creates a dated backup under `theFisher Online\Mod Backups`,
+stages each replacement, verifies the result, and rolls back that batch if any
+step fails. It does not terminate the game process.
 
 To check compatibility without installing:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Install-Fisher4K.ps1 -VerifyOnly
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Install-Fisher4K.ps1 -GamePath "C:\Program Files (x86)\Steam\steamapps\common\theFisher Online" -VerifyOnly
 ```
 
 ## Restore
@@ -48,14 +50,17 @@ Close Fisher Online, then pass the dated backup directory printed by the
 installer:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Restore-Fisher4K.ps1 -BackupPath "D:\SteamLibrary\steamapps\common\theFisher Online\Mod Backups\FisherOnline-4K-Public-before-YYYYMMDD-HHMMSS"
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Restore-Fisher4K.ps1 -GamePath "D:\SteamLibrary\steamapps\common\theFisher Online" -BackupPath "D:\SteamLibrary\steamapps\common\theFisher Online\Mod Backups\FisherOnline-4K-Public-before-PART01","D:\SteamLibrary\steamapps\common\theFisher Online\Mod Backups\FisherOnline-4K-Public-before-PART02","D:\SteamLibrary\steamapps\common\theFisher Online\Mod Backups\FisherOnline-4K-Public-before-PART03"
 ```
 
 Steam's **Verify integrity of game files** also restores the official bundles.
 
 ## Compatibility and performance
 
-- The release is version-locked to the game bundle hashes in `manifest.json`.
+- Each archive is version-locked to the pristine game bundle hashes in its
+  `manifest.json`. Installed bundles already at the expected target hash are
+  accepted, so all release parts can be applied safely after Steam Verify
+  Integrity restores pristine bundles.
   Unknown or already-modified source bundles are rejected before installation.
 - Another mod that replaces one of the same fish bundles must be removed first.
 - 4K textures consume more VRAM than the original 256-1024px assets. Systems
@@ -65,10 +70,11 @@ Steam's **Verify integrity of game files** also restores the official bundles.
 
 ## Release format
 
-The archive contains compressed `.f4kp` binary patches rather than copies of
-the original game bundles. Each patch can be applied only to the exact source
-SHA-256 recorded in the manifest. The repository contains the patch builder,
-installer, verification tooling, documentation, and comparison images.
+Each archive contains compressed `.f4kp` binary patches rather than copies of
+the original game bundles. A patch can be applied only to the exact source
+SHA-256 recorded in its manifest. The repository contains the journal-backed
+patch builder, installer, verification tooling, documentation, and comparison
+images.
 
 The project remains in active development as the rest of the fish catalog is
 rebuilt and verified.
@@ -89,5 +95,9 @@ shown on top and the rebuilt 4K texture on the bottom.
 | Black Cod |
 |---|
 | ![Black Cod before and after](previews/black-cod.jpg) |
+
+| Arctic Char | Squid |
+|---|---|
+| ![Arctic Char before and after](previews/arctic-char.jpg) | ![Squid before and after](previews/squid.jpg) |
 
 More comparison renders are available in the [`previews`](previews) folder.

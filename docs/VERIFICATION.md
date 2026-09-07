@@ -2,12 +2,15 @@
 
 Each published target has four independent checks:
 
-1. The working source is the earliest dated rollback copy made before that
-   bundle's texture work.
-2. The target is the currently installed bundle already accepted by the local
-   Unity asset verifier.
-3. The release builder records source, target, and patch SHA-256 hashes and
-   rebuilds the target from the source plus `.f4kp` data.
+1. The authoritative live inventory identifies a verified upgrade and its
+   current installed SHA-256.
+2. A unique chain of `installed_and_readback_verified` journals must connect
+   that same target SHA-256 back to an independently retained pristine source.
+   The source hash must be attested by the matching artifact verification, or
+   match the root of the successful journal chain.
+3. The release builder re-hashes the live target and pristine rollback source,
+   records every lineage edge, unions the changed Texture2D proof across the
+   chain, then rebuilds the final target from the source plus `.f4kp` data.
 4. The PowerShell installer verifies the same hashes before and after the
    staged replacement and restores its backup if the batch fails.
 

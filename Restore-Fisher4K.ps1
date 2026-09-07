@@ -1,37 +1,9 @@
-[CmdletBinding()]
-param(
-    [Parameter(Mandatory=$true)][string]$BackupPath,
-    [string]$GamePath
-)
-
-$ErrorActionPreference = 'Stop'
-if (Get-Process -Name 'theFisher' -ErrorAction SilentlyContinue) {
-    throw 'Fisher Online is running. Close the game and run restore again.'
-}
-
-function Find-FisherOnline([string]$RequestedPath) {
-    if ($RequestedPath) { return (Resolve-Path -LiteralPath $RequestedPath).Path }
-    $journal = Join-Path $BackupPath 'installation.json'
-    if (-not (Test-Path -LiteralPath $journal)) { throw 'installation.json is missing from the backup folder; provide -GamePath.' }
-    $saved = (Get-Content -LiteralPath $journal -Raw | ConvertFrom-Json).backup
-    return (Resolve-Path -LiteralPath (Split-Path -Parent (Split-Path -Parent $saved))).Path
-}
-
-$gameRoot = Find-FisherOnline $GamePath
-$allowedRoot = [IO.Path]::GetFullPath((Join-Path $gameRoot 'Mod Backups'))
-$resolvedBackup = [IO.Path]::GetFullPath((Resolve-Path -LiteralPath $BackupPath).Path)
-if (-not $resolvedBackup.StartsWith($allowedRoot, [StringComparison]::OrdinalIgnoreCase)) {
-    throw 'BackupPath must be inside this Fisher Online installation''s Mod Backups folder.'
-}
-$bundleRoot = Join-Path $gameRoot 'theFisher_Data\StreamingAssets\aa\StandaloneWindows64'
-$journal = Get-Content -LiteralPath (Join-Path $resolvedBackup 'installation.json') -Raw | ConvertFrom-Json
-foreach ($bundle in $journal.bundles) {
-    $source = Join-Path $resolvedBackup $bundle
-    $destination = Join-Path $bundleRoot $bundle
-    if (-not (Test-Path -LiteralPath $source)) { throw "Backup file missing: $bundle" }
-    $temporary = "$destination.restore.tmp"
-    Copy-Item -LiteralPath $source -Destination $temporary
-    [System.IO.File]::Replace($temporary, $destination, $null)
-    Write-Host "Restored: $bundle"
-}
-Write-Host 'Restore completed.'
+[CmdletBinding()] param([Parameter(Mandatory=$true)][string[]]$BackupPath,[Parameter(Mandatory=$true)][string]$GamePath)
+$ErrorActionPreference='Stop'
+function Hash($p){$s=[IO.File]::OpenRead($p);$a=[Security.Cryptography.SHA256]::Create();try{([BitConverter]::ToString($a.ComputeHash($s))).Replace('-','').ToLowerInvariant()}finally{$a.Dispose();$s.Dispose()}}
+function Leaf($n){if([IO.Path]::GetFileName($n)-ne$n -or $n -notmatch '^[A-Za-z0-9_.-]+\.bundle$'){throw "Unsafe bundle name: $n"}}
+if(Get-Process -Name theFisher -ErrorAction SilentlyContinue){throw 'Fisher Online is running.'}
+$game=(Resolve-Path -LiteralPath $GamePath).Path;$allowed=[IO.Path]::GetFullPath((Join-Path $game 'Mod Backups')).TrimEnd('\')+'\';$root=Join-Path $game 'theFisher_Data\StreamingAssets\aa\StandaloneWindows64';$all=[Collections.Generic.List[object]]::new();$seen=@{}
+foreach($requested in $BackupPath){$dir=[IO.Path]::GetFullPath((Resolve-Path -LiteralPath $requested).Path).TrimEnd('\\');if(-not $dir.StartsWith($allowed,[StringComparison]::OrdinalIgnoreCase)){throw 'BackupPath must be inside this game installation Mod Backups directory.'};$journal=Get-Content (Join-Path $dir installation.json) -Raw|ConvertFrom-Json;foreach($e in $journal.bundles){if($e -is [string]){throw 'Journal lacks recorded source/target hashes.'};Leaf $e.bundle;if($seen.ContainsKey($e.bundle)){throw "Duplicate bundle across journals: $($e.bundle)"};$seen[$e.bundle]=$true;$s=Join-Path $dir $e.bundle;$d=Join-Path $root $e.bundle;if(-not(Test-Path -LiteralPath $s)-or -not(Test-Path -LiteralPath $d)){throw "Missing backup or destination: $($e.bundle)"};if((Hash $s)-ne$e.source_sha256){throw "Backup hash mismatch: $($e.bundle)"};if((Hash $d)-ne$e.target_sha256){throw "Target hash mismatch: $($e.bundle)"};$all.Add([pscustomobject]@{bundle=$e.bundle;source=$s;destination=$d;source_sha256=$e.source_sha256;target_sha256=$e.target_sha256})}}
+$stage=Join-Path $env:TEMP ('F4KRestore-'+[guid]::NewGuid());New-Item -ItemType Directory $stage|Out-Null;$done=[Collections.Generic.List[object]]::new()
+try{foreach($e in $all){$e|Add-Member staged (Join-Path $stage $e.bundle);Copy-Item -LiteralPath $e.source -Destination $e.staged;if((Hash $e.staged)-ne$e.source_sha256){throw "Stage mismatch: $($e.bundle)"}};foreach($e in $all){$e|Add-Member rollback "$($e.destination).restore-rollback";[IO.File]::Replace($e.staged,$e.destination,$e.rollback);$done.Add($e);if($env:F4K_TEST_FAIL_RESTORE_AFTER_REPLACE-eq$e.bundle){throw "Forced restore failure: $($e.bundle)"};if((Hash $e.destination)-ne$e.source_sha256){throw "Restored hash mismatch: $($e.bundle)"};Remove-Item -LiteralPath $e.rollback -Force -ErrorAction SilentlyContinue;Write-Host "Restored: $($e.bundle)"}}catch{for($i=$done.Count-1;$i-ge 0;$i--){$e=$done[$i];if(Test-Path -LiteralPath $e.rollback){Copy-Item -LiteralPath $e.rollback -Destination $e.destination -Force}};throw}finally{Remove-Item -LiteralPath $stage -Recurse -Force -ErrorAction SilentlyContinue};Write-Host "Restore completed for $($all.Count) bundles."
