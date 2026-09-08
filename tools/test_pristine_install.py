@@ -15,7 +15,13 @@ def run(script, *args, env=None):
         raise RuntimeError(f"{script.name} failed ({completed.returncode}):\n{completed.stdout}")
     return completed.stdout
 def main():
- p=argparse.ArgumentParser();p.add_argument('--dist',type=Path,required=True);p.add_argument('--artifacts',type=Path,required=True);a=p.parse_args();dist=a.dist.resolve(); assets=json.loads(next(dist.glob('*-assets.json')).read_text())['assets']
+ p=argparse.ArgumentParser();p.add_argument('--dist',type=Path,required=True);p.add_argument('--artifacts',type=Path,required=True);p.add_argument('--version');a=p.parse_args();dist=a.dist.resolve()
+ asset_files=list(dist.glob('*-assets.json'))
+ if a.version:
+  asset_files=[path for path in asset_files if f'-v{a.version}-assets.json' in path.name]
+ if not asset_files: raise FileNotFoundError('No matching release assets manifest')
+ asset_file=max(asset_files,key=lambda path:path.stat().st_mtime_ns)
+ assets=json.loads(asset_file.read_text())['assets']
  with tempfile.TemporaryDirectory(dir=dist) as td:
   td=Path(td); parts=[]
   for asset in assets:

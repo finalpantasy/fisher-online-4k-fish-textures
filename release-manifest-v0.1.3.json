@@ -1,0 +1,3950 @@
+{
+  "format": "F4KP1",
+  "version": "0.1.3",
+  "game": "Fisher Online",
+  "generated_at_utc": "2026-09-08T13:16:41.103538+00:00",
+  "bundle_count": 96,
+  "inventory_bundle_count": 310,
+  "species": [
+    {
+      "species": "Grass Carp",
+      "bundle": "fishs_assets_fishingame_007_amur.bundle",
+      "patch": "patches/fishs_assets_fishingame_007_amur.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Grass_Carp",
+          "Grass_Carp_Small",
+          "Grass_Carp_Trof",
+          "Grass_Carp_Alpha",
+          "Grass_Carp_Blesk2"
+        ],
+        "normal": [
+          "Grass_Carp_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        474251439542126998,
+        6228347148411720056,
+        7490459725137704189,
+        8302982284238887531,
+        -3563902666074878543,
+        8572606476425567030
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "c6a435874b1c434c74747788118a241c8075c44bb460196a395ce6ca06862009",
+          "after_sha256": "7a42dd1f9717c7a79b6a7ab293a1674a278deeb6375c8678f726d55d5a471a9c"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "c6a435874b1c434c74747788118a241c8075c44bb460196a395ce6ca06862009",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 11235739,
+      "target_size": 98387948,
+      "source_sha256": "c6a435874b1c434c74747788118a241c8075c44bb460196a395ce6ca06862009",
+      "target_sha256": "7a42dd1f9717c7a79b6a7ab293a1674a278deeb6375c8678f726d55d5a471a9c",
+      "patch_size": 88402997,
+      "patch_sha256": "3890afa34954d62cfc491afce10621ad561c0da0b75a5769341157c1ee1961d1",
+      "changed_blocks": 94,
+      "raw_changed_bytes": 98387948
+    },
+    {
+      "species": "Siberian Sculpin",
+      "bundle": "fishs_assets_fishingame_101_rog.bundle",
+      "patch": "patches/fishs_assets_fishingame_101_rog.bundle.f4kp",
+      "textures": {
+        "color": [
+          "rogatkatPSD",
+          "rogatkat",
+          "AyukakeT0_a",
+          "AyukakeT0_b"
+        ],
+        "normal": [
+          "AyukakeT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -5211595266765188509,
+        1466994971412019325,
+        1750224278426212196,
+        -1700436377406245804,
+        9036891168339876626
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "36453b0a3e45c5d55a9a1716d68c0cc3b97cbaf43a5c2699b0ffec1f261b7e9d",
+          "after_sha256": "17725e85c259a47253a8dafc045f5789e204a390fe20e050b98d90449ab085fd"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "36453b0a3e45c5d55a9a1716d68c0cc3b97cbaf43a5c2699b0ffec1f261b7e9d",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1556960,
+      "target_size": 62547449,
+      "source_sha256": "36453b0a3e45c5d55a9a1716d68c0cc3b97cbaf43a5c2699b0ffec1f261b7e9d",
+      "target_sha256": "17725e85c259a47253a8dafc045f5789e204a390fe20e050b98d90449ab085fd",
+      "patch_size": 58417128,
+      "patch_sha256": "a86b01be22482190e57e157f8187922dd1183201fe93d26358e8736cfcd72e3c",
+      "changed_blocks": 60,
+      "raw_changed_bytes": 62547449
+    },
+    {
+      "species": "Sterlet",
+      "bundle": "fishs_assets_fishingame_103_sterl.bundle",
+      "patch": "patches/fishs_assets_fishingame_103_sterl.bundle.f4kp",
+      "textures": {
+        "color": [
+          "sterlyad_PSD",
+          "sterlyad_s"
+        ],
+        "normal": [
+          "sterlyad_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -8333223379264169820,
+        2399872138717995813,
+        4636544001061639189
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "83e09b2babae1217b71dedec6e0a6cee8858d0facc2addc7439bc3b2f2f89c3d",
+          "after_sha256": "d5a152195a545e93f01784a222b5bc4570dfa823c912200b9c51cd3777f96aa4"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "83e09b2babae1217b71dedec6e0a6cee8858d0facc2addc7439bc3b2f2f89c3d",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1063755,
+      "target_size": 37527628,
+      "source_sha256": "83e09b2babae1217b71dedec6e0a6cee8858d0facc2addc7439bc3b2f2f89c3d",
+      "target_sha256": "d5a152195a545e93f01784a222b5bc4570dfa823c912200b9c51cd3777f96aa4",
+      "patch_size": 35023653,
+      "patch_sha256": "95fa0adfb375b639477029d46f4f55f29c23195c1ed36935330002c1f2078bed",
+      "changed_blocks": 36,
+      "raw_changed_bytes": 37527628
+    },
+    {
+      "species": "Taimen",
+      "bundle": "fishs_assets_fishingame_106_taimen.bundle",
+      "patch": "patches/fishs_assets_fishingame_106_taimen.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ItoT0_small",
+          "ItoT0_uniq",
+          "ItoT0_unique",
+          "ItoN0_t"
+        ],
+        "normal": [
+          "ItoT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -925967122014483793,
+        1818463591899578164,
+        -5012192071887089693,
+        6153256574690434394,
+        4833595866276217317
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "a4c422e81a6972aaf21bd38d6f0a7a33f1fae7a8fc7957e0c81c598a4cc9457b",
+          "after_sha256": "c5ffbf32aafd567efde5ad2cb66b8667a15f76126c4af02eb3addc3b948dd234"
+        },
+        {
+          "before_sha256": "c5ffbf32aafd567efde5ad2cb66b8667a15f76126c4af02eb3addc3b948dd234",
+          "after_sha256": "728143aa1cd5f8860c714967a06af673357fd9c797cda6421125fdf4479cff42"
+        },
+        {
+          "before_sha256": "728143aa1cd5f8860c714967a06af673357fd9c797cda6421125fdf4479cff42",
+          "after_sha256": "33af57a82b64f062ec91b33c75e158de4163de6d88d31451d8c85d03d8552602"
+        },
+        {
+          "before_sha256": "33af57a82b64f062ec91b33c75e158de4163de6d88d31451d8c85d03d8552602",
+          "after_sha256": "681c6a0f9082e9591e2902acf23730c6b58f47b83dc2a16f1417102c07b6a718"
+        },
+        {
+          "before_sha256": "681c6a0f9082e9591e2902acf23730c6b58f47b83dc2a16f1417102c07b6a718",
+          "after_sha256": "67028e88468ad377866a6b4b43ee5b74e790ed975ecf5a5fa8f7b45d18c069f9"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "a4c422e81a6972aaf21bd38d6f0a7a33f1fae7a8fc7957e0c81c598a4cc9457b",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1880514,
+      "target_size": 85054172,
+      "source_sha256": "a4c422e81a6972aaf21bd38d6f0a7a33f1fae7a8fc7957e0c81c598a4cc9457b",
+      "target_sha256": "67028e88468ad377866a6b4b43ee5b74e790ed975ecf5a5fa8f7b45d18c069f9",
+      "patch_size": 80300575,
+      "patch_sha256": "4b9e79525effeb8613811dd55474774ff1fc3de0a63c1b2130f7174443ba052d",
+      "changed_blocks": 82,
+      "raw_changed_bytes": 85054172
+    },
+    {
+      "species": "Giant Pike",
+      "bundle": "fishs_assets_fishingame_110_giantpike.bundle",
+      "patch": "patches/fishs_assets_fishingame_110_giantpike.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Pike_reflect",
+          "Pike_diffuse",
+          "Pike_sever",
+          "Pike_uniqdiffuse",
+          "Pike_s"
+        ],
+        "normal": [
+          "Pike_normals",
+          "Pike_add_bump"
+        ]
+      },
+      "changed_texture_ids": [
+        -6937587758426171962,
+        -5109614195286001343,
+        -1833966510232683569,
+        3083908725229024801,
+        3925880931128535572,
+        5366261559527185793,
+        4253394640797507230
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "38d8b76a4c0d759b575e99773b19d60901f7d05a2b918ecbd60564d0eb8e65f0",
+          "after_sha256": "0df1424ad08dc8b49e20337fc7834464e01ae5e040880c93d865836e362199b7"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "38d8b76a4c0d759b575e99773b19d60901f7d05a2b918ecbd60564d0eb8e65f0",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 5040539,
+      "target_size": 140753959,
+      "source_sha256": "38d8b76a4c0d759b575e99773b19d60901f7d05a2b918ecbd60564d0eb8e65f0",
+      "target_sha256": "0df1424ad08dc8b49e20337fc7834464e01ae5e040880c93d865836e362199b7",
+      "patch_size": 125224656,
+      "patch_sha256": "bf9a87b094dd6127fec2f595277fd28730409e99d787884ba433b1358a9be5a7",
+      "changed_blocks": 135,
+      "raw_changed_bytes": 140753959
+    },
+    {
+      "species": "European Eel",
+      "bundle": "fishs_assets_fishingame_111_ugor.bundle",
+      "patch": "patches/fishs_assets_fishingame_111_ugor.bundle.f4kp",
+      "textures": {
+        "color": [
+          "UnagiT0",
+          "UnagiT0_a"
+        ],
+        "normal": [
+          "UnagiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -3070470058430513115,
+        -6703097810516299633,
+        -5491102008963969747
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "075e775123643a217b8739efdc477df23aaafb4b3c91e32e26242c4bb3f6cd97",
+          "after_sha256": "e3e0e9696a0de045052a2022d75b862249672eb8aa5ab6f87a91b2ae73220078"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "075e775123643a217b8739efdc477df23aaafb4b3c91e32e26242c4bb3f6cd97",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 731650,
+      "target_size": 20706800,
+      "source_sha256": "075e775123643a217b8739efdc477df23aaafb4b3c91e32e26242c4bb3f6cd97",
+      "target_sha256": "e3e0e9696a0de045052a2022d75b862249672eb8aa5ab6f87a91b2ae73220078",
+      "patch_size": 18799813,
+      "patch_sha256": "e259842522352536ecbf08b6dde3b34c2db7ca3a5aad9a2152526a85ac202ecd",
+      "changed_blocks": 20,
+      "raw_changed_bytes": 20706800
+    },
+    {
+      "species": "Grayling",
+      "bundle": "fishs_assets_fishingame_116_harius.bundle",
+      "patch": "patches/fishs_assets_fishingame_116_harius.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Grayling_Black",
+          "Grayling_Alpha",
+          "Grayling_Blesk"
+        ],
+        "normal": [
+          "Grayling_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -6981467544309203660,
+        2431336774981758912,
+        -88104501461913161,
+        -2194663427450604296
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "2c63b1558885e77f1630bdbd3f36544cd72c25b5480060f7edfac2f808289a5b",
+          "after_sha256": "9b408b899fde5503cb9fbdaa01b72974ed3ef0cdbce7f9bd8e9cdd97b54f2456"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "2c63b1558885e77f1630bdbd3f36544cd72c25b5480060f7edfac2f808289a5b",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 7879041,
+      "target_size": 69383376,
+      "source_sha256": "2c63b1558885e77f1630bdbd3f36544cd72c25b5480060f7edfac2f808289a5b",
+      "target_sha256": "9b408b899fde5503cb9fbdaa01b72974ed3ef0cdbce7f9bd8e9cdd97b54f2456",
+      "patch_size": 60674804,
+      "patch_sha256": "7db8781fb9c51f6d23c2b91a32ab01e2da450f6487fcf2d1af91632262ae196b",
+      "changed_blocks": 67,
+      "raw_changed_bytes": 69383376
+    },
+    {
+      "species": "Wels Catfish",
+      "bundle": "fishs_assets_fishingame_11_som.bundle",
+      "patch": "patches/fishs_assets_fishingame_11_som.bundle.f4kp",
+      "textures": {
+        "color": [
+          "CatFish_Big 1",
+          "Catfish_Small 1",
+          "CatFish_Trof_Big"
+        ],
+        "normal": [
+          "CatFish_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        1523662048407680766,
+        -2242139242338452442,
+        -5394245221317824570,
+        -6295739749016866670
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "989b72159259370054a19ec0ed208654e58712c429dd61e9eff1abc555b3ce4d",
+          "after_sha256": "74fd2ba894d73aa739e15d05f77b264b70c94a0a1c00904e26f1253d3a533fdf"
+        },
+        {
+          "before_sha256": "74fd2ba894d73aa739e15d05f77b264b70c94a0a1c00904e26f1253d3a533fdf",
+          "after_sha256": "8bbd3dbb98cf60be52137728cedb995596bdb258d41013a9a4561292a7c3d7e0"
+        },
+        {
+          "before_sha256": "8bbd3dbb98cf60be52137728cedb995596bdb258d41013a9a4561292a7c3d7e0",
+          "after_sha256": "3cab328164e935dc36a27048c9a2c3073454101d00557864fb8081709fdfc019"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "989b72159259370054a19ec0ed208654e58712c429dd61e9eff1abc555b3ce4d",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 6857850,
+      "target_size": 41032997,
+      "source_sha256": "989b72159259370054a19ec0ed208654e58712c429dd61e9eff1abc555b3ce4d",
+      "target_sha256": "3cab328164e935dc36a27048c9a2c3073454101d00557864fb8081709fdfc019",
+      "patch_size": 38154212,
+      "patch_sha256": "def529af75152d9bf783bfe841a1d923a0c29702acb65af7be6623f457d862e2",
+      "changed_blocks": 40,
+      "raw_changed_bytes": 41032997
+    },
+    {
+      "species": "Black Grass Carp",
+      "bundle": "fishs_assets_fishingame_121_amurblack.bundle",
+      "patch": "patches/fishs_assets_fishingame_121_amurblack.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Grass_Carp_Black",
+          "Grass_Carp_Alpha",
+          "Grass_Carp_Blesk2"
+        ],
+        "normal": [
+          "Grass_Carp_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        7727792861901874005,
+        8302982284238887531,
+        -3563902666074878543,
+        8572606476425567030
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "4c7fa0d6824e5657160c27586bb814aaf8f5c391913fe7b334ff7cfeb13951e2",
+          "after_sha256": "d5bc893ccee23a2e55b3cc7f1186ad99e9d1695ef8750def22007daf13c33e21"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "4c7fa0d6824e5657160c27586bb814aaf8f5c391913fe7b334ff7cfeb13951e2",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 7147574,
+      "target_size": 59928463,
+      "source_sha256": "4c7fa0d6824e5657160c27586bb814aaf8f5c391913fe7b334ff7cfeb13951e2",
+      "target_sha256": "d5bc893ccee23a2e55b3cc7f1186ad99e9d1695ef8750def22007daf13c33e21",
+      "patch_size": 51798465,
+      "patch_sha256": "10b4ef08464e515f56e3f31caee5f03636d55fe34eb5c35d85271c98b40aab98",
+      "changed_blocks": 58,
+      "raw_changed_bytes": 59928463
+    },
+    {
+      "species": "Sabrefish",
+      "bundle": "fishs_assets_fishingame_123_chehon.bundle",
+      "patch": "patches/fishs_assets_fishingame_123_chehon.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Pelecus_Small",
+          "Pelecus_Big",
+          "Pelecus_Trof",
+          "Pelecus_Alpha",
+          "Pelecus_Blesk"
+        ],
+        "normal": [
+          "Pelecus_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -430122740193524561,
+        1658343029059354969,
+        -444642476184774354,
+        -6520627493313195917,
+        4504613712359951702,
+        4713775368186140710
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "29b46e5a012a6195a86f64749fb4436f81265ec21a065afd457cd4e8527e424e",
+          "after_sha256": "82cfa22e987946627eba452cfdd2f7162c5be4682c3a9b3f1a776fa6fb6b51df"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "29b46e5a012a6195a86f64749fb4436f81265ec21a065afd457cd4e8527e424e",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 12917431,
+      "target_size": 92758219,
+      "source_sha256": "29b46e5a012a6195a86f64749fb4436f81265ec21a065afd457cd4e8527e424e",
+      "target_sha256": "82cfa22e987946627eba452cfdd2f7162c5be4682c3a9b3f1a776fa6fb6b51df",
+      "patch_size": 82570730,
+      "patch_sha256": "7f218fa3759af0b64fa6bef9d7bdc4c6a6932b29bbe4814501e89c5a0db80ac2",
+      "changed_blocks": 89,
+      "raw_changed_bytes": 92758219
+    },
+    {
+      "species": "Giant Pike - Large",
+      "bundle": "fishs_assets_fishingame_128_bigpike.bundle",
+      "patch": "patches/fishs_assets_fishingame_128_bigpike.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Pike_uniqdiffuse",
+          "Pike_s"
+        ],
+        "normal": [
+          "Pike_normals"
+        ]
+      },
+      "changed_texture_ids": [
+        3083908725229024801,
+        3925880931128535572,
+        5366261559527185793
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "6b08220444de5d195afdb567680074ccdc7c25c3103369a130f905e4fb80a955",
+          "after_sha256": "3ba5176710cb9a3b778152c9c7a64f7532b15ed5725d9eaa6bb261777680ad54"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "6b08220444de5d195afdb567680074ccdc7c25c3103369a130f905e4fb80a955",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2673325,
+      "target_size": 56234944,
+      "source_sha256": "6b08220444de5d195afdb567680074ccdc7c25c3103369a130f905e4fb80a955",
+      "target_sha256": "3ba5176710cb9a3b778152c9c7a64f7532b15ed5725d9eaa6bb261777680ad54",
+      "patch_size": 49179504,
+      "patch_sha256": "9445f4f82920ca0bfd545b69d0103c75684d1b880874a7b15d0696732e741581",
+      "changed_blocks": 54,
+      "raw_changed_bytes": 56234944
+    },
+    {
+      "species": "Grass Pike",
+      "bundle": "fishs_assets_fishingame_128_grasspike.bundle",
+      "patch": "patches/fishs_assets_fishingame_128_grasspike.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Pike_reflect",
+          "Pike_diffuse",
+          "Pike_uniqdiffuse",
+          "Pike_s"
+        ],
+        "normal": [
+          "Pike_normals",
+          "Pike_add_bump"
+        ]
+      },
+      "changed_texture_ids": [
+        -6937587758426171962,
+        -5109614195286001343,
+        3083908725229024801,
+        3925880931128535572,
+        5366261559527185793,
+        4253394640797507230
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "2ade72d732b91cd0443f5fd6cefe23529ac7ca84502f28ce71e8935494bad535",
+          "after_sha256": "d168cda6e248743ec01c0d00655031e7bc702ea831761ab8a19b778aa6a94df2"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "2ade72d732b91cd0443f5fd6cefe23529ac7ca84502f28ce71e8935494bad535",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 4485987,
+      "target_size": 120222039,
+      "source_sha256": "2ade72d732b91cd0443f5fd6cefe23529ac7ca84502f28ce71e8935494bad535",
+      "target_sha256": "d168cda6e248743ec01c0d00655031e7bc702ea831761ab8a19b778aa6a94df2",
+      "patch_size": 105320577,
+      "patch_sha256": "da5702bb1de0555e988b62f1e680afaf1ff6720d6e0d111fd53ada38dd89dff6",
+      "changed_blocks": 115,
+      "raw_changed_bytes": 120222039
+    },
+    {
+      "species": "Common Chub",
+      "bundle": "fishs_assets_fishingame_12_golavl.bundle",
+      "patch": "patches/fishs_assets_fishingame_12_golavl.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Common_chub_Big",
+          "Common_chub_Color",
+          "Common_chub_trof"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        458173066321777014,
+        8277861602221452515,
+        26776793275480047,
+        -9107578865491962196
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "00818c8f8ea5d244ca890aecfcacdea93fc8317cd86dbc6b5be5b5d21eaba7d3",
+          "after_sha256": "84441d6402a1b098fafe9fa3b9fa402504c37bc4c5346734f9b83a8a27b9c796"
+        },
+        {
+          "before_sha256": "84441d6402a1b098fafe9fa3b9fa402504c37bc4c5346734f9b83a8a27b9c796",
+          "after_sha256": "44ab660ddd46f1a3ebe1ce2c75bc61edeaaccdad095b32e39c4a554f6447973e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "00818c8f8ea5d244ca890aecfcacdea93fc8317cd86dbc6b5be5b5d21eaba7d3",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 10491840,
+      "target_size": 70043878,
+      "source_sha256": "00818c8f8ea5d244ca890aecfcacdea93fc8317cd86dbc6b5be5b5d21eaba7d3",
+      "target_sha256": "44ab660ddd46f1a3ebe1ce2c75bc61edeaaccdad095b32e39c4a554f6447973e",
+      "patch_size": 65308701,
+      "patch_sha256": "be5fbe2528927fdf92904c8c72ca4d338c3e44376f397ed47777283a1db72252",
+      "changed_blocks": 67,
+      "raw_changed_bytes": 70043878
+    },
+    {
+      "species": "Golden Trout",
+      "bundle": "fishs_assets_fishingame_136_forelgold.bundle",
+      "patch": "patches/fishs_assets_fishingame_136_forelgold.bundle.f4kp",
+      "textures": {
+        "color": [
+          "NizimasuT0_GOLD",
+          "NizimasuT0_Gloss"
+        ],
+        "normal": [
+          "NizimasuT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        4911976105870182818,
+        142670120486446173,
+        5844339714325635326
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "c26f99c75beb2e959ca6dbdfb374ba06370565b3e6bcbc2402cfb48caeaebcf2",
+          "after_sha256": "a1c4ae91ac3f4fd05efa4409a1c7eea8830f50d700604989b8fc34de16e5d757"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "c26f99c75beb2e959ca6dbdfb374ba06370565b3e6bcbc2402cfb48caeaebcf2",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1375998,
+      "target_size": 29539415,
+      "source_sha256": "c26f99c75beb2e959ca6dbdfb374ba06370565b3e6bcbc2402cfb48caeaebcf2",
+      "target_sha256": "a1c4ae91ac3f4fd05efa4409a1c7eea8830f50d700604989b8fc34de16e5d757",
+      "patch_size": 27420015,
+      "patch_sha256": "9cd69a1e2c6c465e540bbe07e97cbc254148bb1835f6e65eca02f0986a8f2bcd",
+      "changed_blocks": 29,
+      "raw_changed_bytes": 29539415
+    },
+    {
+      "species": "Lake Minnow",
+      "bundle": "fishs_assets_fishingame_142_gol.bundle",
+      "patch": "patches/fishs_assets_fishingame_142_gol.bundle.f4kp",
+      "textures": {
+        "color": [
+          "YatiuguiT0_PSD",
+          "Yatiugui_s",
+          "YatiuguiT0_a"
+        ],
+        "normal": [
+          "YatiuguiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -12403219486323362,
+        -3015875676231605744,
+        1186550637574506555,
+        6184669396223576331
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "553c99f7b2a16ef553f4d93a8b3c6568207a90a4efee625e8c06ca6490a0a709",
+          "after_sha256": "3295c76e7b304b5ceeb507e8f613661a56e6502a545dd422f03fa09675ec0665"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "553c99f7b2a16ef553f4d93a8b3c6568207a90a4efee625e8c06ca6490a0a709",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1048004,
+      "target_size": 51353368,
+      "source_sha256": "553c99f7b2a16ef553f4d93a8b3c6568207a90a4efee625e8c06ca6490a0a709",
+      "target_sha256": "3295c76e7b304b5ceeb507e8f613661a56e6502a545dd422f03fa09675ec0665",
+      "patch_size": 47962337,
+      "patch_sha256": "5046e747f76b45070b175adb36173fa9f2c8a17f49c858fd9bc669bd45b67847",
+      "changed_blocks": 49,
+      "raw_changed_bytes": 51353368
+    },
+    {
+      "species": "Vobla",
+      "bundle": "fishs_assets_fishingame_14_vobla.bundle",
+      "patch": "patches/fishs_assets_fishingame_14_vobla.bundle.f4kp",
+      "textures": {
+        "color": [
+          "DefaultMaterial_Base_Color"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -6910426249305023992,
+        4292269061553877111
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "ba243e9dcd864db6d94228204c15557f7da2d2c176b0ba568bed8a79a63ebcf8",
+          "after_sha256": "113ebd99af6620959f4aa49c1f93af839556c11d62bd523effaffce42e07a01a"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "ba243e9dcd864db6d94228204c15557f7da2d2c176b0ba568bed8a79a63ebcf8",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 7835011,
+      "target_size": 34717595,
+      "source_sha256": "ba243e9dcd864db6d94228204c15557f7da2d2c176b0ba568bed8a79a63ebcf8",
+      "target_sha256": "113ebd99af6620959f4aa49c1f93af839556c11d62bd523effaffce42e07a01a",
+      "patch_size": 32029002,
+      "patch_sha256": "92f7082a731adf85e1d091e89a03f041af5c6e84f01ea55cbba7e1a66c9f13d4",
+      "changed_blocks": 34,
+      "raw_changed_bytes": 34717595
+    },
+    {
+      "species": "Common Carp - Large and Trophy",
+      "bundle": "fishs_assets_fishingame_16_carp.bundle",
+      "patch": "patches/fishs_assets_fishingame_16_carp.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Carp2_Color",
+          "BaseBig_Color"
+        ],
+        "normal": [
+          "Normal",
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        6097222182849598155,
+        -2371812284960048546,
+        7500462302166312591,
+        1569341659034226073
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "b87a7e65e36e068daf96e75ea50110b5ec2cda51ea8b0cb332a58b1115b04b23",
+          "after_sha256": "c591fe660282e3b57269bbacf4ddf674138328e0fa0ce4baf3e99e1a70dff0e7"
+        },
+        {
+          "before_sha256": "c591fe660282e3b57269bbacf4ddf674138328e0fa0ce4baf3e99e1a70dff0e7",
+          "after_sha256": "790a054b3b6710ee7fe50d5bbd160f68c896acb3f1fc72013427e70b5e5a91f5"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "b87a7e65e36e068daf96e75ea50110b5ec2cda51ea8b0cb332a58b1115b04b23",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 11032189,
+      "target_size": 56949777,
+      "source_sha256": "b87a7e65e36e068daf96e75ea50110b5ec2cda51ea8b0cb332a58b1115b04b23",
+      "target_sha256": "790a054b3b6710ee7fe50d5bbd160f68c896acb3f1fc72013427e70b5e5a91f5",
+      "patch_size": 51759661,
+      "patch_sha256": "d3447a2632510f4e6af0fcf2b06f53c1c1b282d22715605f5aaddbf4ed9cf06a",
+      "changed_blocks": 55,
+      "raw_changed_bytes": 56949777
+    },
+    {
+      "species": "Common Carp - Normal",
+      "bundle": "fishs_assets_fishingame_16_carp_small.bundle",
+      "patch": "patches/fishs_assets_fishingame_16_carp_small.bundle.f4kp",
+      "textures": {
+        "color": [
+          "carp_diffuse"
+        ],
+        "normal": [
+          "carp_alb_normals"
+        ]
+      },
+      "changed_texture_ids": [
+        4162346884250742320,
+        -207814224656518822
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "e9b2f732e69795884d0d3a42f8a4dadeb1e6f0e183d128e0010ab9d6356b1ab9",
+          "after_sha256": "699c26b0de59347314909327c4601ec530492b801968444b1c3a26e7235b3a55"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "e9b2f732e69795884d0d3a42f8a4dadeb1e6f0e183d128e0010ab9d6356b1ab9",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1973289,
+      "target_size": 26100082,
+      "source_sha256": "e9b2f732e69795884d0d3a42f8a4dadeb1e6f0e183d128e0010ab9d6356b1ab9",
+      "target_sha256": "699c26b0de59347314909327c4601ec530492b801968444b1c3a26e7235b3a55",
+      "patch_size": 24706060,
+      "patch_sha256": "d2cf665c6563b159bdc0ae1fefabc2669652a859735b9b0dd6fc725221c45349",
+      "changed_blocks": 25,
+      "raw_changed_bytes": 26100082
+    },
+    {
+      "species": "European Weatherfish",
+      "bundle": "fishs_assets_fishingame_16_viun.bundle",
+      "patch": "patches/fishs_assets_fishingame_16_viun.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ViunEuro",
+          "FukudozyouT0_a"
+        ],
+        "normal": [
+          "FukudozyouT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        7435400244849347054,
+        -1464380441932560121,
+        -8148362781739953911
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "8bcce216a2eecf228a4309ae11e86b0f9da4a93ae4060da6f7bbd266bdfdf8ca",
+          "after_sha256": "b333bc70d82799ef966ec5dfecfa003c185eb5bd1b745edcd40695f0eda6aa0a"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "8bcce216a2eecf228a4309ae11e86b0f9da4a93ae4060da6f7bbd266bdfdf8ca",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 965745,
+      "target_size": 36163353,
+      "source_sha256": "8bcce216a2eecf228a4309ae11e86b0f9da4a93ae4060da6f7bbd266bdfdf8ca",
+      "target_sha256": "b333bc70d82799ef966ec5dfecfa003c185eb5bd1b745edcd40695f0eda6aa0a",
+      "patch_size": 33713502,
+      "patch_sha256": "48c096b0fbc26033efcbf3a4e5362a4cf3fcc8ab0817c8c99f32e76ee7762454",
+      "changed_blocks": 35,
+      "raw_changed_bytes": 36163353
+    },
+    {
+      "species": "Zander",
+      "bundle": "fishs_assets_fishingame_17_sudak.bundle",
+      "patch": "patches/fishs_assets_fishingame_17_sudak.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Sander",
+          "Sander_Small",
+          "Sander_Trof"
+        ],
+        "normal": [
+          "Sander_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -578875827845582471,
+        -8173375629138165761,
+        2485787899152241770,
+        -3541350439794440093
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "590f23515262508e16bc03d040a9460fc16183444a8bdb4b00a7ec41bb215714",
+          "after_sha256": "ae89b536e4b454fc9ce46f1dbc016c3774eefcbc5c29dc87bcb84c2272eebe61"
+        },
+        {
+          "before_sha256": "ae89b536e4b454fc9ce46f1dbc016c3774eefcbc5c29dc87bcb84c2272eebe61",
+          "after_sha256": "93dbbf5e308f39b2d49d3475d5e8b5405e6cd7b7ad1c8d5a5568fd7146aca3ab"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "590f23515262508e16bc03d040a9460fc16183444a8bdb4b00a7ec41bb215714",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 14367500,
+      "target_size": 82981485,
+      "source_sha256": "590f23515262508e16bc03d040a9460fc16183444a8bdb4b00a7ec41bb215714",
+      "target_sha256": "93dbbf5e308f39b2d49d3475d5e8b5405e6cd7b7ad1c8d5a5568fd7146aca3ab",
+      "patch_size": 78645575,
+      "patch_sha256": "ad4f29196552af956b2808a9ecbdbc783d3bba4a22b45439f2d76ee5a5a67316",
+      "changed_blocks": 80,
+      "raw_changed_bytes": 82981485
+    },
+    {
+      "species": "Mirror Carp - Normal",
+      "bundle": "fishs_assets_fishingame_18_carp_smallmirror.bundle",
+      "patch": "patches/fishs_assets_fishingame_18_carp_smallmirror.bundle.f4kp",
+      "textures": {
+        "color": [
+          "carp_Mirdiffuse"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        -954702993379761740
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "ff251181dede06749e242c2824b01e4948394c8b95acdfc9b756aa27f1fde02d",
+          "after_sha256": "fbb5dc2323198777addda9707eb4a3254fb0e6c28ae63d9910746b3aa32aaa4b"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "ff251181dede06749e242c2824b01e4948394c8b95acdfc9b756aa27f1fde02d",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1485988,
+      "target_size": 19330895,
+      "source_sha256": "ff251181dede06749e242c2824b01e4948394c8b95acdfc9b756aa27f1fde02d",
+      "target_sha256": "fbb5dc2323198777addda9707eb4a3254fb0e6c28ae63d9910746b3aa32aaa4b",
+      "patch_size": 18362389,
+      "patch_sha256": "bc639d70a8ca0471f2919751338ff58f1489f3cd91ec239702483acc8d13cbed",
+      "changed_blocks": 19,
+      "raw_changed_bytes": 19330895
+    },
+    {
+      "species": "Mirror Carp - Large and Trophy",
+      "bundle": "fishs_assets_fishingame_18_carpmirror.bundle",
+      "patch": "patches/fishs_assets_fishingame_18_carpmirror.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Base2_Color"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        8002367628343222867,
+        6253642678964352198
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "4dbff09f6fede2932029569c9fe0bc4235f91e98dd1818763f9b4d447581ba43",
+          "after_sha256": "1dfe5aa295997fecf6704ebec3d09e2ec3a681a7c7ed9d38617d309aede4ddfc"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "4dbff09f6fede2932029569c9fe0bc4235f91e98dd1818763f9b4d447581ba43",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 7260790,
+      "target_size": 34330225,
+      "source_sha256": "4dbff09f6fede2932029569c9fe0bc4235f91e98dd1818763f9b4d447581ba43",
+      "target_sha256": "1dfe5aa295997fecf6704ebec3d09e2ec3a681a7c7ed9d38617d309aede4ddfc",
+      "patch_size": 31725840,
+      "patch_sha256": "35aa1b351f31132ba52b5013cbb80ff033352d2dc1082e393ca07c48b65b4db6",
+      "changed_blocks": 33,
+      "raw_changed_bytes": 34330225
+    },
+    {
+      "species": "Crucian Carp",
+      "bundle": "fishs_assets_fishingame_1_crucian.bundle",
+      "patch": "patches/fishs_assets_fishingame_1_crucian.bundle.f4kp",
+      "textures": {
+        "color": [
+          "HeraSilver",
+          "HeraT0_t"
+        ],
+        "normal": [
+          "HeraT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -9199963766768736522,
+        -6614078287508375670,
+        6652317281366021799
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "c3e8a170a7a9c7a7616e8784f1c724540a24ab8541c5ac99d6068b9da9527785",
+          "after_sha256": "de1dee55a92f6d1776a3d2ce0b85087fcd91d1bb54774911bdcbbbf6af44ec69"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "c3e8a170a7a9c7a7616e8784f1c724540a24ab8541c5ac99d6068b9da9527785",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 4634864,
+      "target_size": 44056283,
+      "source_sha256": "c3e8a170a7a9c7a7616e8784f1c724540a24ab8541c5ac99d6068b9da9527785",
+      "target_sha256": "de1dee55a92f6d1776a3d2ce0b85087fcd91d1bb54774911bdcbbbf6af44ec69",
+      "patch_size": 41213605,
+      "patch_sha256": "c77d089fe050a161dc714863e071c5d5165dc5805c6c30e66f19fad6f679781a",
+      "changed_blocks": 43,
+      "raw_changed_bytes": 44056283
+    },
+    {
+      "species": "Atlantic Sturgeon",
+      "bundle": "fishs_assets_fishingame_209_osetratlantic.bundle",
+      "patch": "patches/fishs_assets_fishingame_209_osetratlantic.bundle.f4kp",
+      "textures": {
+        "color": [
+          "body_col2",
+          "body_rough@channels=G"
+        ],
+        "normal": [
+          "body_norm"
+        ]
+      },
+      "changed_texture_ids": [
+        -7493372105114018101,
+        -4584875177482030031,
+        2347896384980039712
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "8356d18a3d0a329df629549ac5c577db554f70a34f56750e3e5dced331ccea16",
+          "after_sha256": "98e64c751373e4edc00b316197e390f4c9fa3a68b9f1e3f82f56236341f90d55"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "8356d18a3d0a329df629549ac5c577db554f70a34f56750e3e5dced331ccea16",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 6251719,
+      "target_size": 42583332,
+      "source_sha256": "8356d18a3d0a329df629549ac5c577db554f70a34f56750e3e5dced331ccea16",
+      "target_sha256": "98e64c751373e4edc00b316197e390f4c9fa3a68b9f1e3f82f56236341f90d55",
+      "patch_size": 39973118,
+      "patch_sha256": "9bcdfd5ca41851866a28d4959359838eca228468bda21f63c4d23374f0d9fcc0",
+      "changed_blocks": 41,
+      "raw_changed_bytes": 42583332
+    },
+    {
+      "species": "Arctic Char",
+      "bundle": "fishs_assets_fishingame_21_golecarct.bundle",
+      "patch": "patches/fishs_assets_fishingame_21_golecarct.bundle.f4kp",
+      "textures": {
+        "color": [
+          "golecPSD",
+          "golecYungPSD",
+          "KarafutomasuFT0",
+          "KarafutomasuFN0",
+          "KarafutomasuFT0_n",
+          "KarafutomasuFT0_b",
+          "KarafutomasuFT0_a"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        8600257140755779522,
+        -5354172171577776983,
+        3809201387491978644,
+        8942294184889819018,
+        -3734420387092553469,
+        -2110633596738962851,
+        998304549466825330
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "e23dd2235a50838b90fb7ca5f9ada7e3ae0639bb878ff3ef70f3bdaa532b6374",
+          "after_sha256": "3cf84a136bc11b442fa9e1f17cd1b9a6c8075fb8f700e73ae9b87f0a059d4443"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "e23dd2235a50838b90fb7ca5f9ada7e3ae0639bb878ff3ef70f3bdaa532b6374",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1953386,
+      "target_size": 35225398,
+      "source_sha256": "e23dd2235a50838b90fb7ca5f9ada7e3ae0639bb878ff3ef70f3bdaa532b6374",
+      "target_sha256": "3cf84a136bc11b442fa9e1f17cd1b9a6c8075fb8f700e73ae9b87f0a059d4443",
+      "patch_size": 31663283,
+      "patch_sha256": "00cf38eaa4a76c52dd1ba372bebeaf76f7784c55af864ec83e14115b7e418aca",
+      "changed_blocks": 34,
+      "raw_changed_bytes": 35225398
+    },
+    {
+      "species": "Stone Loach",
+      "bundle": "fishs_assets_fishingame_27_golec.bundle",
+      "patch": "patches/fishs_assets_fishingame_27_golec.bundle.f4kp",
+      "textures": {
+        "color": [
+          "FukudozyouPSD",
+          "Fukudozyou_s",
+          "FukudozyouT0_a"
+        ],
+        "normal": [
+          "FukudozyouT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -2264826636543347048,
+        4570261476323152476,
+        -6240591643437987979,
+        2617658746519286774
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "c252b436ad3a81bcd7a31aa71f21c0b334cddbd2b4f88c1faa1280673e35f2a9",
+          "after_sha256": "7cb89869eb26a6391deed651670b9b591233ec1861395b1b43ed1279e56d2cfd"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "c252b436ad3a81bcd7a31aa71f21c0b334cddbd2b4f88c1faa1280673e35f2a9",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1207361,
+      "target_size": 45154447,
+      "source_sha256": "c252b436ad3a81bcd7a31aa71f21c0b334cddbd2b4f88c1faa1280673e35f2a9",
+      "target_sha256": "7cb89869eb26a6391deed651670b9b591233ec1861395b1b43ed1279e56d2cfd",
+      "patch_size": 42215429,
+      "patch_sha256": "c55969fb70e3712fa99b5a185be365c6f11eef941a226d05160dc7873e43bc48",
+      "changed_blocks": 44,
+      "raw_changed_bytes": 45154447
+    },
+    {
+      "species": "Dace",
+      "bundle": "fishs_assets_fishingame_28_elec.bundle",
+      "patch": "patches/fishs_assets_fishingame_28_elec.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Elec",
+          "Elec_s",
+          "SimpleWhite"
+        ],
+        "normal": [
+          "Roach_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -8763020307025496505,
+        -6747411372278242316,
+        387111889982476825,
+        -7377234053847223241
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "450f280941b8e47361105b6a94b58ec91068f046a18acb89eb27e24e479b35d3",
+          "after_sha256": "68b9a68d0f5e997793452a4f8e708d075628017d776595ef27de2362fc405c23"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "450f280941b8e47361105b6a94b58ec91068f046a18acb89eb27e24e479b35d3",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2854021,
+      "target_size": 38779995,
+      "source_sha256": "450f280941b8e47361105b6a94b58ec91068f046a18acb89eb27e24e479b35d3",
+      "target_sha256": "68b9a68d0f5e997793452a4f8e708d075628017d776595ef27de2362fc405c23",
+      "patch_size": 31394700,
+      "patch_sha256": "028df56dfce6a728cbfc09334bf9f3f24a33774a89cf4bd90191254038d73e78",
+      "changed_blocks": 37,
+      "raw_changed_bytes": 38779995
+    },
+    {
+      "species": "Bleak",
+      "bundle": "fishs_assets_fishingame_2_ukleya.bundle",
+      "patch": "patches/fishs_assets_fishingame_2_ukleya.bundle.f4kp",
+      "textures": {
+        "color": [
+          "BakeLight",
+          "Bleak_Big",
+          "Bleak_Trof"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        1044115403236029852,
+        7858937209886409436,
+        4508919434026426081
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "3c7d4b9c1fa0a1f05148f193c5b442cc0bffa04fe6ed7972fd8998139f1034e0",
+          "after_sha256": "56cedbeb8bb3f34fa6d922e4aa67260be8e6947369c9f116b42c4ab02a1cc7af"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "3c7d4b9c1fa0a1f05148f193c5b442cc0bffa04fe6ed7972fd8998139f1034e0",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 14613271,
+      "target_size": 28725756,
+      "source_sha256": "3c7d4b9c1fa0a1f05148f193c5b442cc0bffa04fe6ed7972fd8998139f1034e0",
+      "target_sha256": "56cedbeb8bb3f34fa6d922e4aa67260be8e6947369c9f116b42c4ab02a1cc7af",
+      "patch_size": 26113514,
+      "patch_sha256": "73e9f77c7acfb0a70f1b1a4b2ef4742cca813296d8d19d50d107a0a210979053",
+      "changed_blocks": 28,
+      "raw_changed_bytes": 28725756
+    },
+    {
+      "species": "Danube Taimen",
+      "bundle": "fishs_assets_fishingame_304_dtaimen.bundle",
+      "patch": "patches/fishs_assets_fishingame_304_dtaimen.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ItoN0_t",
+          "ItoT0_danube"
+        ],
+        "normal": [
+          "ItoT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        6153256574690434394,
+        4833595866276217317,
+        1657996238067028670
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "1b30511cdabcf0b8eceea5b82489b9a06e1617a856946ed6f696cd4ed2bd7471",
+          "after_sha256": "e6ce0504fe101eb69f751e4e7296925458860cdd9ab31ca7a893ff796404a2dc"
+        },
+        {
+          "before_sha256": "e6ce0504fe101eb69f751e4e7296925458860cdd9ab31ca7a893ff796404a2dc",
+          "after_sha256": "80bfa1474e72852fe7f66d52d7d5c9490ce442f093cc2f329381d70f60efde6f"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "1b30511cdabcf0b8eceea5b82489b9a06e1617a856946ed6f696cd4ed2bd7471",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1472295,
+      "target_size": 47084904,
+      "source_sha256": "1b30511cdabcf0b8eceea5b82489b9a06e1617a856946ed6f696cd4ed2bd7471",
+      "target_sha256": "80bfa1474e72852fe7f66d52d7d5c9490ce442f093cc2f329381d70f60efde6f",
+      "patch_size": 43782988,
+      "patch_sha256": "5053146599bd54eb3fdc63da4c87a8ad1279269a8bc1a506c2e156877927c2c7",
+      "changed_blocks": 45,
+      "raw_changed_bytes": 47084904
+    },
+    {
+      "species": "Juvenile Bleak",
+      "bundle": "fishs_assets_fishingame_30_malek.bundle",
+      "patch": "patches/fishs_assets_fishingame_30_malek.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Malek_diff+spec"
+        ],
+        "normal": [
+          "ukleyka_bump"
+        ]
+      },
+      "changed_texture_ids": [
+        -6373449647507094703,
+        -9000004949209532415
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "353d5c491645439705d1f5e07fd6bc13447c4c48b6538d764f2a9e1b9ac59348",
+          "after_sha256": "fbfe79eebd2124328040e980699c7d1c4d23f13c1fb2c197133e9d8c6b0a3a2e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "353d5c491645439705d1f5e07fd6bc13447c4c48b6538d764f2a9e1b9ac59348",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 217608,
+      "target_size": 9926347,
+      "source_sha256": "353d5c491645439705d1f5e07fd6bc13447c4c48b6538d764f2a9e1b9ac59348",
+      "target_sha256": "fbfe79eebd2124328040e980699c7d1c4d23f13c1fb2c197133e9d8c6b0a3a2e",
+      "patch_size": 9140496,
+      "patch_sha256": "b89b334671270591c523ceaf72e8ce57f447acb54721252e660871f59cf647f6",
+      "changed_blocks": 10,
+      "raw_changed_bytes": 9926347
+    },
+    {
+      "species": "Percarina",
+      "bundle": "fishs_assets_fishingame_31_perch.bundle",
+      "patch": "patches/fishs_assets_fishingame_31_perch.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ersh_nasePDS",
+          "ersh_height"
+        ],
+        "normal": [
+          "ersh_height_NORM"
+        ]
+      },
+      "changed_texture_ids": [
+        -6323269364978399097,
+        -9036881032883127050,
+        -8947851822316795135
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "df0940d7a52f3093eefb080898b5ac9970dd11b5fbca8c4925bde2434ff75aed",
+          "after_sha256": "ec414fec03ecf82d6629058b77864c176037c7686ba2f38512fd6742b0e35e1b"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "df0940d7a52f3093eefb080898b5ac9970dd11b5fbca8c4925bde2434ff75aed",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 568169,
+      "target_size": 35102550,
+      "source_sha256": "df0940d7a52f3093eefb080898b5ac9970dd11b5fbca8c4925bde2434ff75aed",
+      "target_sha256": "ec414fec03ecf82d6629058b77864c176037c7686ba2f38512fd6742b0e35e1b",
+      "patch_size": 33116871,
+      "patch_sha256": "d5abccaea70f5d004f590d4798305297f3573ec32d07efa54d24650f6e2bb2bd",
+      "changed_blocks": 34,
+      "raw_changed_bytes": 35102550
+    },
+    {
+      "species": "Siberian Lamprey",
+      "bundle": "fishs_assets_fishingame_32_minog.bundle",
+      "patch": "patches/fishs_assets_fishingame_32_minog.bundle.f4kp",
+      "textures": {
+        "color": [
+          "MinogaPSD"
+        ],
+        "normal": [
+          "UnagiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        4155780554903084608,
+        -6703097810516299633
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "0757c8ad2f8d4d7f70e8778bd8dea717ee1e434b35d1dc76a997e19b84690c1b",
+          "after_sha256": "aef176ea4ea2dd2af802cdaf487d3859e61f74bef12a677b72287a6fefa903f6"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "0757c8ad2f8d4d7f70e8778bd8dea717ee1e434b35d1dc76a997e19b84690c1b",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 672094,
+      "target_size": 11268692,
+      "source_sha256": "0757c8ad2f8d4d7f70e8778bd8dea717ee1e434b35d1dc76a997e19b84690c1b",
+      "target_sha256": "aef176ea4ea2dd2af802cdaf487d3859e61f74bef12a677b72287a6fefa903f6",
+      "patch_size": 10249727,
+      "patch_sha256": "06ac39516db7a5c7e94bcc9395521521a208bf092bd24421c7ca99a8ea465397",
+      "changed_blocks": 11,
+      "raw_changed_bytes": 11268692
+    },
+    {
+      "species": "Altufa",
+      "bundle": "fishs_assets_fishingame_339_altufa.bundle",
+      "patch": "patches/fishs_assets_fishingame_339_altufa.bundle.f4kp",
+      "textures": {
+        "color": [
+          "altufa_diffuse"
+        ],
+        "normal": [
+          "altufa_normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -9153480882760118762,
+        -4069261384638104209
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "85f81dc398c0b9fa8f0e6cc396824d10c2929a6267d5d6df25e122e089d6984b",
+          "after_sha256": "c16b549d422952196a4e6ecc2bd66f42d2bcd2c6ae7e6f14aa3e957decd281df"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "85f81dc398c0b9fa8f0e6cc396824d10c2929a6267d5d6df25e122e089d6984b",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 860069,
+      "target_size": 54318569,
+      "source_sha256": "85f81dc398c0b9fa8f0e6cc396824d10c2929a6267d5d6df25e122e089d6984b",
+      "target_sha256": "c16b549d422952196a4e6ecc2bd66f42d2bcd2c6ae7e6f14aa3e957decd281df",
+      "patch_size": 45500043,
+      "patch_sha256": "fb0d76b4692f2429641ca1980006dd958caa92e685fa34df13c62dc74ff27225",
+      "changed_blocks": 52,
+      "raw_changed_bytes": 54318569
+    },
+    {
+      "species": "Asp",
+      "bundle": "fishs_assets_fishingame_33_gereh.bundle",
+      "patch": "patches/fishs_assets_fishingame_33_gereh.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Asp_Small",
+          "Asp_Big",
+          "Asp_Trof",
+          "Asp_Blesk",
+          "Asp_Alpha"
+        ],
+        "normal": [
+          "Asp_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -2517449971711484643,
+        -1500430746892470004,
+        8232281754761073527,
+        1941828684862208357,
+        -936987190232582898,
+        6409297948856523676
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "fa2c8072fe4a8f56e4365d764fae96a4a17fb3551d2ffa6806790fd862346ae8",
+          "after_sha256": "9946c775c9f0a8a472b67e0f4a7e6e4da5536b5d3319df80511238e6f503f861"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "fa2c8072fe4a8f56e4365d764fae96a4a17fb3551d2ffa6806790fd862346ae8",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 12496874,
+      "target_size": 77850908,
+      "source_sha256": "fa2c8072fe4a8f56e4365d764fae96a4a17fb3551d2ffa6806790fd862346ae8",
+      "target_sha256": "9946c775c9f0a8a472b67e0f4a7e6e4da5536b5d3319df80511238e6f503f861",
+      "patch_size": 72677612,
+      "patch_sha256": "75d0f568252ad3a1d0bf8b8dd07c32fc5296946265be7eccff44443c82a90d42",
+      "changed_blocks": 75,
+      "raw_changed_bytes": 77850908
+    },
+    {
+      "species": "Black Cod",
+      "bundle": "fishs_assets_fishingame_353_terpg.bundle",
+      "patch": "patches/fishs_assets_fishingame_353_terpg.bundle.f4kp",
+      "textures": {
+        "color": [
+          "blackCod",
+          "PacificCodT0_b",
+          "PacificCodT0_a"
+        ],
+        "normal": [
+          "PacificCodT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -8143447248418183029,
+        -5209258259137620308,
+        6741828061777439243,
+        -8806709500444936487
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "a09dd1dab1625404c29d163523ae66181bd2350c63308e3593c9f3cc474ce3ec",
+          "after_sha256": "40182c8ce85c7a6a4fb34cb0350e30c0f31048dc06cfcca161c0d71d488d188f"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "a09dd1dab1625404c29d163523ae66181bd2350c63308e3593c9f3cc474ce3ec",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1218387,
+      "target_size": 44698871,
+      "source_sha256": "a09dd1dab1625404c29d163523ae66181bd2350c63308e3593c9f3cc474ce3ec",
+      "target_sha256": "40182c8ce85c7a6a4fb34cb0350e30c0f31048dc06cfcca161c0d71d488d188f",
+      "patch_size": 41239249,
+      "patch_sha256": "cf550992352549e10030318a8054a3918b5126dbbd45a542727d91b21baca7b8",
+      "changed_blocks": 43,
+      "raw_changed_bytes": 44698871
+    },
+    {
+      "species": "Striped Ruffe",
+      "bundle": "fishs_assets_fishingame_363_perchstrip.bundle",
+      "patch": "patches/fishs_assets_fishingame_363_perchstrip.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ersh_stripPDS"
+        ],
+        "normal": [
+          "ersh_height_NORM"
+        ]
+      },
+      "changed_texture_ids": [
+        436321352732638102,
+        -9036881032883127050
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "017b71f052f8c45b955d5b6756134d067533dee4a937816c774a5204b6d3db78",
+          "after_sha256": "2dde401336d9c8b5292278bf8b6bc9b2eb551a2e2c8c805539374df048c01964"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "017b71f052f8c45b955d5b6756134d067533dee4a937816c774a5204b6d3db78",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 497013,
+      "target_size": 42687190,
+      "source_sha256": "017b71f052f8c45b955d5b6756134d067533dee4a937816c774a5204b6d3db78",
+      "target_sha256": "2dde401336d9c8b5292278bf8b6bc9b2eb551a2e2c8c805539374df048c01964",
+      "patch_size": 36238764,
+      "patch_sha256": "3f9f068fe625fcc3776756dd8944cb33ca8b45181a4aa84629fface6d3f5bea9",
+      "changed_blocks": 41,
+      "raw_changed_bytes": 42687190
+    },
+    {
+      "species": "Baltic Herring",
+      "bundle": "fishs_assets_fishingame_372_seld.bundle",
+      "patch": "patches/fishs_assets_fishingame_372_seld.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Color",
+          "Color2",
+          "Opacity",
+          "blesk2"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        2050349650021170938,
+        -353700540323946492,
+        7538727760402944682,
+        -2178395204947198830,
+        -2509867350753517316
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "2ca36daf95ffc982b86854124b8a67f21478079761fefedf2ab33c68dd4b6daf",
+          "after_sha256": "e0c281507fda58cbc00b20bac0ddad0d6665ecd9da64d5a151df633a8b9dda7e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "2ca36daf95ffc982b86854124b8a67f21478079761fefedf2ab33c68dd4b6daf",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 6410650,
+      "target_size": 50698787,
+      "source_sha256": "2ca36daf95ffc982b86854124b8a67f21478079761fefedf2ab33c68dd4b6daf",
+      "target_sha256": "e0c281507fda58cbc00b20bac0ddad0d6665ecd9da64d5a151df633a8b9dda7e",
+      "patch_size": 46737638,
+      "patch_sha256": "b3c0fd55a1404fad0189d66e45c9297348e701ed135ae1d7293f87c678ca02b4",
+      "changed_blocks": 49,
+      "raw_changed_bytes": 50698787
+    },
+    {
+      "species": "Atlantic Halibut",
+      "bundle": "fishs_assets_fishingame_375_paltus.bundle",
+      "patch": "patches/fishs_assets_fishingame_375_paltus.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Hippoglossus_Small",
+          "Hippoglossus_Big",
+          "Hippoglossus_Trof",
+          "lakeSturgeon_Small",
+          "lakeSturgeon_PSD",
+          "Hippoglossus_Blesk",
+          "Hippoglossus_Alpha",
+          "lakeSturgeon_specular"
+        ],
+        "normal": [
+          "Hippoglossus_Normal",
+          "lakeSturgeon_normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -6710520586291299952,
+        1135765687378723171,
+        -2464758686976007533,
+        -1265735596428306590,
+        4030196650797667270,
+        -2244246213855072279,
+        7316115062381764791,
+        4101192013434538985,
+        -3640750573374511386,
+        7845980881669044097
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "38ec8da3cd7486552cffe695df036babfde85dd16b237a9f42e7b15521d7cc36",
+          "after_sha256": "bebf156af17c7779312c77b22cf7673ff368bd3ed1cbe65de998a92c3b98ef5a"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "38ec8da3cd7486552cffe695df036babfde85dd16b237a9f42e7b15521d7cc36",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 19050678,
+      "target_size": 222552092,
+      "source_sha256": "38ec8da3cd7486552cffe695df036babfde85dd16b237a9f42e7b15521d7cc36",
+      "target_sha256": "bebf156af17c7779312c77b22cf7673ff368bd3ed1cbe65de998a92c3b98ef5a",
+      "patch_size": 200824663,
+      "patch_sha256": "6247325f4b49408097a8942a37ee6736f5ef97846fcf9424ab14e1d7c4ffeafe",
+      "changed_blocks": 213,
+      "raw_changed_bytes": 222552092
+    },
+    {
+      "species": "European Hake",
+      "bundle": "fishs_assets_fishingame_382_hake.bundle",
+      "patch": "patches/fishs_assets_fishingame_382_hake.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Hake_lowTEXTURE_Fins_BaseColor",
+          "Hake_Diffuse_Small_2",
+          "Hake_Diffuse_Big",
+          "Hake_Blesk",
+          "Fins_Alpha"
+        ],
+        "normal": [
+          "Fins_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -2604815093849441404,
+        -638434445701772685,
+        5084001637971586844,
+        400674735331099329,
+        2125916109137795429,
+        4367235048959732987
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "63b6a2f3416d37a9a447990f1aad2e78ceb56f02a4e307097447a6b525d21b92",
+          "after_sha256": "bac56f5162892f9c181cbaa1800b8b03cc13035b5294c58d9859ffb4b002c593"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "63b6a2f3416d37a9a447990f1aad2e78ceb56f02a4e307097447a6b525d21b92",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 14788905,
+      "target_size": 88297975,
+      "source_sha256": "63b6a2f3416d37a9a447990f1aad2e78ceb56f02a4e307097447a6b525d21b92",
+      "target_sha256": "bac56f5162892f9c181cbaa1800b8b03cc13035b5294c58d9859ffb4b002c593",
+      "patch_size": 83222308,
+      "patch_sha256": "f110e7be45cbd168b858a8dc762076af3c6f11187deff2dd7fbd9ef219cef22a",
+      "changed_blocks": 85,
+      "raw_changed_bytes": 88297975
+    },
+    {
+      "species": "Chinook Salmon",
+      "bundle": "fishs_assets_fishingame_385_chinuk.bundle",
+      "patch": "patches/fishs_assets_fishingame_385_chinuk.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ChinookPSD",
+          "Chinook_s",
+          "Chinook_r"
+        ],
+        "normal": [
+          "Chinook_n"
+        ]
+      },
+      "changed_texture_ids": [
+        5962707414284042133,
+        -8445366080005645438,
+        5614951601852992787,
+        -9021691752263556742
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "2416d3dbfb15f1b564125ccd1a4a8420deba0ee67ccadd7a088f92574e10e647",
+          "after_sha256": "bae2cbb6d8c1edd029c0d7963ec6b032d69f05598e7a94f89fb2246f700b3854"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "2416d3dbfb15f1b564125ccd1a4a8420deba0ee67ccadd7a088f92574e10e647",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1486396,
+      "target_size": 85107884,
+      "source_sha256": "2416d3dbfb15f1b564125ccd1a4a8420deba0ee67ccadd7a088f92574e10e647",
+      "target_sha256": "bae2cbb6d8c1edd029c0d7963ec6b032d69f05598e7a94f89fb2246f700b3854",
+      "patch_size": 72566110,
+      "patch_sha256": "55313ac54d6673ce2530f2a25ac8c6b90b6612299323afe3f000ea58f4c4790f",
+      "changed_blocks": 82,
+      "raw_changed_bytes": 85107884
+    },
+    {
+      "species": "Squid",
+      "bundle": "fishs_assets_fishingame_389_squid.bundle",
+      "patch": "patches/fishs_assets_fishingame_389_squid.bundle.f4kp",
+      "textures": {
+        "color": [
+          "squid2 diffuse",
+          "squid s"
+        ],
+        "normal": [
+          "squid normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -7663932959970490396,
+        -5393232532605801377,
+        -1846080595206996089
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "9dccde3b47b4874bd5c239639660ba8a9d265b404be9d3e7d7e69d145659badf",
+          "after_sha256": "3e52194fdd310ef3dd9bd4cc4f92ec56d15336fa95438648e659cb750611c91a"
+        },
+        {
+          "before_sha256": "3e52194fdd310ef3dd9bd4cc4f92ec56d15336fa95438648e659cb750611c91a",
+          "after_sha256": "9af9c700c8438a9d54e21e29c7416838e2fb356b6c894911acf8ac0eaa6fd85b"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "9dccde3b47b4874bd5c239639660ba8a9d265b404be9d3e7d7e69d145659badf",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 10122044,
+      "target_size": 18777377,
+      "source_sha256": "9dccde3b47b4874bd5c239639660ba8a9d265b404be9d3e7d7e69d145659badf",
+      "target_sha256": "9af9c700c8438a9d54e21e29c7416838e2fb356b6c894911acf8ac0eaa6fd85b",
+      "patch_size": 16169644,
+      "patch_sha256": "d4a0362eea904755fb70c56e0761279e4fe455ca277187e6543da65aa80d36de",
+      "changed_blocks": 18,
+      "raw_changed_bytes": 18777377
+    },
+    {
+      "species": "Wolffish",
+      "bundle": "fishs_assets_fishingame_392_zubatka.bundle",
+      "patch": "patches/fishs_assets_fishingame_392_zubatka.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Diffuse Map Final",
+          "WF Eye Diffuse Final"
+        ],
+        "normal": [
+          "WF NRML Final"
+        ]
+      },
+      "changed_texture_ids": [
+        -3345296865106216070,
+        4475492823103230912,
+        614709078519833062
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "975385cbfd01f3652c5b8a5d4c6654632cfb3b9ee8545b57b86dac52f091b686",
+          "after_sha256": "bf93f3442afb05ce35a8298435dc4d09b24230b707e30e8da423a375682d0c93"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "975385cbfd01f3652c5b8a5d4c6654632cfb3b9ee8545b57b86dac52f091b686",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 5518508,
+      "target_size": 42089286,
+      "source_sha256": "975385cbfd01f3652c5b8a5d4c6654632cfb3b9ee8545b57b86dac52f091b686",
+      "target_sha256": "bf93f3442afb05ce35a8298435dc4d09b24230b707e30e8da423a375682d0c93",
+      "patch_size": 39207181,
+      "patch_sha256": "7d344da395379caf0784db515de4dd05943322580f99023a346317290900b077",
+      "changed_blocks": 41,
+      "raw_changed_bytes": 42089286
+    },
+    {
+      "species": "Sockeye Salmon",
+      "bundle": "fishs_assets_fishingame_401_nerka.bundle",
+      "patch": "patches/fishs_assets_fishingame_401_nerka.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Nerka_diffuse",
+          "Nerka_s",
+          "PinkSalmon_trans"
+        ],
+        "normal": [
+          "PinkSalmon_normal"
+        ]
+      },
+      "changed_texture_ids": [
+        1805951525331535320,
+        5958001144964055672,
+        9184690367549710109,
+        -8116015457590851550
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "96449c4a4c92b404c971ff1e338247fef9f89f32b1b20cf7173f378a9e17a9e1",
+          "after_sha256": "a05e6c31a989fc74e2538e3f01efadbb85817d305df42e1c53ad62021f641315"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "96449c4a4c92b404c971ff1e338247fef9f89f32b1b20cf7173f378a9e17a9e1",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2914382,
+      "target_size": 54354645,
+      "source_sha256": "96449c4a4c92b404c971ff1e338247fef9f89f32b1b20cf7173f378a9e17a9e1",
+      "target_sha256": "a05e6c31a989fc74e2538e3f01efadbb85817d305df42e1c53ad62021f641315",
+      "patch_size": 51735276,
+      "patch_sha256": "9e20b3e108f8f9c11666803b085f418e5133751c30338a66600cd1eb3d171793",
+      "changed_blocks": 52,
+      "raw_changed_bytes": 54354645
+    },
+    {
+      "species": "Spiny Dogfish",
+      "bundle": "fishs_assets_fishingame_402_sshark.bundle",
+      "patch": "patches/fishs_assets_fishingame_402_sshark.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Katran",
+          "LeopardSharkT0_b"
+        ],
+        "normal": [
+          "LeopardSharkT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        4032881739326481816,
+        -7357424447993482601,
+        -5529777168675113608
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "dabea6408e35daf8481ad240866b7bfa0d713dfc3661fd55ce277a73b7f87ebf",
+          "after_sha256": "1cf319589e842155a23fff3eb1798818c09de6bfe27898dcf69e6a8fe7017931"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "dabea6408e35daf8481ad240866b7bfa0d713dfc3661fd55ce277a73b7f87ebf",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1066602,
+      "target_size": 23181994,
+      "source_sha256": "dabea6408e35daf8481ad240866b7bfa0d713dfc3661fd55ce277a73b7f87ebf",
+      "target_sha256": "1cf319589e842155a23fff3eb1798818c09de6bfe27898dcf69e6a8fe7017931",
+      "patch_size": 21130546,
+      "patch_sha256": "fd97d8df631156b1b5e163f60264df5999da06af469f79f4ad9baa055535af8b",
+      "changed_blocks": 23,
+      "raw_changed_bytes": 23181994
+    },
+    {
+      "species": "Common Nase",
+      "bundle": "fishs_assets_fishingame_409_podust.bundle",
+      "patch": "patches/fishs_assets_fishingame_409_podust.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Chondrostoma_Big"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        2703526612903275302
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "a51de8831699c1d6ac5381ca500fdf6bcff5f4ba7d253fc6a48b33748935f61b",
+          "after_sha256": "70c827b7dec92e1d74de2796049aeac6ad0751bbd5ffc64cfca023a1b8a8240e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "verification_attested_original",
+        "sha256": "ef808ff06446e1af2ebfc743afe2799139acccca1a48ec4b9d164d078c9775ef",
+        "verification_file": "verification.json"
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 7666571,
+      "target_size": 16754414,
+      "source_sha256": "ef808ff06446e1af2ebfc743afe2799139acccca1a48ec4b9d164d078c9775ef",
+      "target_sha256": "70c827b7dec92e1d74de2796049aeac6ad0751bbd5ffc64cfca023a1b8a8240e",
+      "patch_size": 15047370,
+      "patch_sha256": "ef561f70d5fc099f57d54da4fda4eade313633717db0987ad0326b4b10249f1c",
+      "changed_blocks": 16,
+      "raw_changed_bytes": 16754414
+    },
+    {
+      "species": "Longnose Gar",
+      "bundle": "fishs_assets_fishingame_411_gar.bundle",
+      "patch": "patches/fishs_assets_fishingame_411_gar.bundle.f4kp",
+      "textures": {
+        "color": [
+          "longnose gar_PSD",
+          "longnose gar_D"
+        ],
+        "normal": [
+          "longnose gar_N"
+        ]
+      },
+      "changed_texture_ids": [
+        696424850925115667,
+        -8827651704032649773,
+        3436841480059148959
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "85f7ce951e051255c6f81a1ed3a8298013df4b8be76fffc8f6d7b6d37f57e971",
+          "after_sha256": "c6798c5eb867b9afe7c711dcd9ee621a34b89e686c6685c25ddd6bf7634912f2"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "85f7ce951e051255c6f81a1ed3a8298013df4b8be76fffc8f6d7b6d37f57e971",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1782646,
+      "target_size": 28902506,
+      "source_sha256": "85f7ce951e051255c6f81a1ed3a8298013df4b8be76fffc8f6d7b6d37f57e971",
+      "target_sha256": "c6798c5eb867b9afe7c711dcd9ee621a34b89e686c6685c25ddd6bf7634912f2",
+      "patch_size": 26520361,
+      "patch_sha256": "e411ae7378d2035d3a7f3fd4364b83be277a9173877f80af5b7f2d6a26ce0722",
+      "changed_blocks": 28,
+      "raw_changed_bytes": 28902506
+    },
+    {
+      "species": "Leather Carp",
+      "bundle": "fishs_assets_fishingame_413_nudecarp.bundle",
+      "patch": "patches/fishs_assets_fishingame_413_nudecarp.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Color",
+          "Opacity",
+          "blesk"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        5787051302060209672,
+        -3016852882921147733,
+        484142374838640261,
+        7196704978982875210
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "5c4e5130a053e4974ed88b63d9cafcf8d3c5c45dd992490696c216991d14b27f",
+          "after_sha256": "72e5455c1ebfe769c6a8472bdf8845c59e5e840143167c1572b3bf409f52bdc4"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "5c4e5130a053e4974ed88b63d9cafcf8d3c5c45dd992490696c216991d14b27f",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 6963389,
+      "target_size": 47643193,
+      "source_sha256": "5c4e5130a053e4974ed88b63d9cafcf8d3c5c45dd992490696c216991d14b27f",
+      "target_sha256": "72e5455c1ebfe769c6a8472bdf8845c59e5e840143167c1572b3bf409f52bdc4",
+      "patch_size": 40266379,
+      "patch_sha256": "b39230959c77a916dcabe8da751015ab3ec2d069c2cd9fcd71989b33a41a90f9",
+      "changed_blocks": 46,
+      "raw_changed_bytes": 47643193
+    },
+    {
+      "species": "Taiwan Loach",
+      "bundle": "fishs_assets_fishingame_441_snake.bundle",
+      "patch": "patches/fishs_assets_fishingame_441_snake.bundle.f4kp",
+      "textures": {
+        "color": [
+          "TaiwanDozyouT0_t",
+          "TaiwanDozyouT0_a"
+        ],
+        "normal": [
+          "TaiwanDozyouT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        1213546246374912482,
+        4778040632188382893,
+        -9047147986113077717
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "f4044770eace7761ce580bd26806647cdb5b2b00b32c8f89c8df2514f615e6b1",
+          "after_sha256": "ccf12a7796f73063196edc0b5355b72d09ee00274f6b9a60eca31b7098fc35db"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "f4044770eace7761ce580bd26806647cdb5b2b00b32c8f89c8df2514f615e6b1",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1035093,
+      "target_size": 29089723,
+      "source_sha256": "f4044770eace7761ce580bd26806647cdb5b2b00b32c8f89c8df2514f615e6b1",
+      "target_sha256": "ccf12a7796f73063196edc0b5355b72d09ee00274f6b9a60eca31b7098fc35db",
+      "patch_size": 26823499,
+      "patch_sha256": "d77ba30ee1a1b8bae8aa5a4181615f670a91aad98c11049254c10f95cbc8fe4c",
+      "changed_blocks": 28,
+      "raw_changed_bytes": 29089723
+    },
+    {
+      "species": "Sharpbelly",
+      "bundle": "fishs_assets_fishingame_447_vostro.bundle",
+      "patch": "patches/fishs_assets_fishingame_447_vostro.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Vostro",
+          "Pusan",
+          "KonosiroT0_a",
+          "SimpleWhite"
+        ],
+        "normal": [
+          "KonosiroT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        6793764539006186617,
+        -4396170170841179175,
+        4376824063928355496,
+        -8807548788960557630,
+        -7377234053847223241
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "7f6fffd1567b7d13a555abe82932457f202f56bac4ea615e97b4af3b83ec082d",
+          "after_sha256": "b688a8b9baed232cb58ad4d5807d7e8fd20021f148b33ebb68be96244d3fe1f1"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "7f6fffd1567b7d13a555abe82932457f202f56bac4ea615e97b4af3b83ec082d",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1605774,
+      "target_size": 39922283,
+      "source_sha256": "7f6fffd1567b7d13a555abe82932457f202f56bac4ea615e97b4af3b83ec082d",
+      "target_sha256": "b688a8b9baed232cb58ad4d5807d7e8fd20021f148b33ebb68be96244d3fe1f1",
+      "patch_size": 37539712,
+      "patch_sha256": "d18be6db549da889d4faebba0da91cd4e370d74e02c03efd6fda77d65cd37555",
+      "changed_blocks": 39,
+      "raw_changed_bytes": 39922283
+    },
+    {
+      "species": "Black Bream",
+      "bundle": "fishs_assets_fishingame_449_bream.bundle",
+      "patch": "patches/fishs_assets_fishingame_449_bream.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Bream_BlackSmall",
+          "Bream_BlackBigl",
+          "Bream_Opas",
+          "Belo_s",
+          "Bream_Black_s",
+          "Bream_Albedo_01"
+        ],
+        "normal": [
+          "Bream_Normal_01"
+        ]
+      },
+      "changed_texture_ids": [
+        -1918696022307462842,
+        6444540479221479726,
+        -4278271977747264686,
+        723340831031143379,
+        4251934790996028170,
+        6880642022042145389,
+        3700713003452325026
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "b47ae063e7f4398fcb5f790788fd648d79704de0d0d7e2a47b085aa3b69c6fdd",
+          "after_sha256": "5e5dff6e4c3f50ddd282d3bbd0a0380bda4d1a3874cf07d7be51dbff1c383067"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "b47ae063e7f4398fcb5f790788fd648d79704de0d0d7e2a47b085aa3b69c6fdd",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2717699,
+      "target_size": 65144298,
+      "source_sha256": "b47ae063e7f4398fcb5f790788fd648d79704de0d0d7e2a47b085aa3b69c6fdd",
+      "target_sha256": "5e5dff6e4c3f50ddd282d3bbd0a0380bda4d1a3874cf07d7be51dbff1c383067",
+      "patch_size": 60449755,
+      "patch_sha256": "11eb95c2713d074fecb92e48cb8fef1e34b8eb4d04ab700c10316f8161c43d68",
+      "changed_blocks": 63,
+      "raw_changed_bytes": 65144298
+    },
+    {
+      "species": "Kosatka",
+      "bundle": "fishs_assets_fishingame_452_kosatka.bundle",
+      "patch": "patches/fishs_assets_fishingame_452_kosatka.bundle.f4kp",
+      "textures": {
+        "color": [
+          "skripun"
+        ],
+        "normal": [
+          "GigiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        3596260946538820056,
+        -123820460856366443
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "58f9a822a6424be63ab4bc46464f94a6eae09a501a7799a4e6ba79ff2512e5fb",
+          "after_sha256": "748029b4c2662c588dae79142bbfca01a8fa20fbe35319963c3e34f15009d0dd"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "58f9a822a6424be63ab4bc46464f94a6eae09a501a7799a4e6ba79ff2512e5fb",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1350258,
+      "target_size": 30977064,
+      "source_sha256": "58f9a822a6424be63ab4bc46464f94a6eae09a501a7799a4e6ba79ff2512e5fb",
+      "target_sha256": "748029b4c2662c588dae79142bbfca01a8fa20fbe35319963c3e34f15009d0dd",
+      "patch_size": 27523049,
+      "patch_sha256": "96ca52deafecee19f11a9f4fb24e30ad06b8ff6dd58c36266647caaa881f456a",
+      "changed_blocks": 30,
+      "raw_changed_bytes": 30977064
+    },
+    {
+      "species": "Sattar Snowtrout",
+      "bundle": "fishs_assets_fishingame_464_marinka.bundle",
+      "patch": "patches/fishs_assets_fishingame_464_marinka.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Marinka",
+          "EzouguiT0",
+          "Podust_S"
+        ],
+        "normal": [
+          "EzouguiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        8768873815596028293,
+        -6448239962670858643,
+        7076330393016928960,
+        5791496142338108416
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "bece5210aa49d447dc860a583bff862ca3971569a274e72ed1b6ad4bd76939fa",
+          "after_sha256": "2f6103825db94e4ad4f67ce34ba61c54e94d3ba64eb3ff9c94fd764ac2884d8b"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "bece5210aa49d447dc860a583bff862ca3971569a274e72ed1b6ad4bd76939fa",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1586087,
+      "target_size": 48553266,
+      "source_sha256": "bece5210aa49d447dc860a583bff862ca3971569a274e72ed1b6ad4bd76939fa",
+      "target_sha256": "2f6103825db94e4ad4f67ce34ba61c54e94d3ba64eb3ff9c94fd764ac2884d8b",
+      "patch_size": 45426125,
+      "patch_sha256": "7513c532641599055a7f5e0f8cc64efe51145b29bf784011c0cdb177d8ddc8f7",
+      "changed_blocks": 47,
+      "raw_changed_bytes": 48553266
+    },
+    {
+      "species": "Japanese Smelt",
+      "bundle": "fishs_assets_fishingame_46_kor.bundle",
+      "patch": "patches/fishs_assets_fishingame_46_kor.bundle.f4kp",
+      "textures": {
+        "color": [
+          "WakasagiT0_PSD",
+          "WakasagiT0_t",
+          "WakasagiS_PSD",
+          "WakasagiT0_b",
+          "WakasagiT0_a"
+        ],
+        "normal": [
+          "WakasagiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -6686644105634516603,
+        -3235542106494036451,
+        -4400024995530494986,
+        1293805466949171955,
+        -2456225102760269254,
+        7313770787359312495
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "cf279131d2b0240389f2e95d2a21aacff0259c4a9d6724c48b628325a0023154",
+          "after_sha256": "e5cd8bd468274456e195d9ce9463be2bfe43460198e517cb2da4918843a70093"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "cf279131d2b0240389f2e95d2a21aacff0259c4a9d6724c48b628325a0023154",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1324598,
+      "target_size": 73897731,
+      "source_sha256": "cf279131d2b0240389f2e95d2a21aacff0259c4a9d6724c48b628325a0023154",
+      "target_sha256": "e5cd8bd468274456e195d9ce9463be2bfe43460198e517cb2da4918843a70093",
+      "patch_size": 69143997,
+      "patch_sha256": "6cacff30be53970e41a68a6aac7e7f6c4aef354336e41718edb9b6f9b4de473f",
+      "changed_blocks": 71,
+      "raw_changed_bytes": 73897731
+    },
+    {
+      "species": "Osman",
+      "bundle": "fishs_assets_fishingame_475_osman.bundle",
+      "patch": "patches/fishs_assets_fishingame_475_osman.bundle.f4kp",
+      "textures": {
+        "color": [
+          "OsmanPSD",
+          "Maren_PSD_Albedo"
+        ],
+        "normal": [
+          "Barbus_01_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        3178173497684802043,
+        1115616374488340394,
+        2815097871204256216
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "f0e9a59d30d3a9cbd586e3fb8675f39aceb608e109c05713e8c87f642469cfaf",
+          "after_sha256": "2b490c13815525c06ea5570e085c459a70ddd1ed6ca214504ad96b2010fe6805"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "f0e9a59d30d3a9cbd586e3fb8675f39aceb608e109c05713e8c87f642469cfaf",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1056608,
+      "target_size": 28636183,
+      "source_sha256": "f0e9a59d30d3a9cbd586e3fb8675f39aceb608e109c05713e8c87f642469cfaf",
+      "target_sha256": "2b490c13815525c06ea5570e085c459a70ddd1ed6ca214504ad96b2010fe6805",
+      "patch_size": 26277230,
+      "patch_sha256": "9e8cecd38c032d12085edaa711b45925a73b2f1703a7a1d40952e71dcb94bbdf",
+      "changed_blocks": 28,
+      "raw_changed_bytes": 28636183
+    },
+    {
+      "species": "Trout",
+      "bundle": "fishs_assets_fishingame_478_forel.bundle",
+      "patch": "patches/fishs_assets_fishingame_478_forel.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Ishhan",
+          "NizimasuT0_n",
+          "Kumga_s",
+          "NizimasuT0_a"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        -7463447186009832258,
+        142670120486446173,
+        5873614686380236228,
+        7682825426273904591
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "68d6222cdfbc5e139e46bfc59ad53d11f4419cbaf3528c72ace8c3e2ecf0745d",
+          "after_sha256": "8e9ebcf17b786b30524685cd7a71b80670ced31a5d9a02d768d7ccd28a15e88e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "68d6222cdfbc5e139e46bfc59ad53d11f4419cbaf3528c72ace8c3e2ecf0745d",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1550300,
+      "target_size": 43439913,
+      "source_sha256": "68d6222cdfbc5e139e46bfc59ad53d11f4419cbaf3528c72ace8c3e2ecf0745d",
+      "target_sha256": "8e9ebcf17b786b30524685cd7a71b80670ced31a5d9a02d768d7ccd28a15e88e",
+      "patch_size": 39632141,
+      "patch_sha256": "ff91189f8ebde7744eb7d4bc51b01ed7058fe922a2609400fcef960651431748",
+      "changed_blocks": 42,
+      "raw_changed_bytes": 43439913
+    },
+    {
+      "species": "Scaly Osman",
+      "bundle": "fishs_assets_fishingame_481_osman.bundle",
+      "patch": "patches/fishs_assets_fishingame_481_osman.bundle.f4kp",
+      "textures": {
+        "color": [
+          "OsmanCheshPSD"
+        ],
+        "normal": [
+          "Osman_01_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        164379977236603869,
+        7840562317456268231
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "6d6e13aa25c571a88ca857ca8e41794008eb34582a9ab075aa41222e7b8f0cff",
+          "after_sha256": "992ee1a3608d256f0bf7626c667b894f6e142ea0d7d383118a3d66f45ae2d6a5"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "6d6e13aa25c571a88ca857ca8e41794008eb34582a9ab075aa41222e7b8f0cff",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 927859,
+      "target_size": 23003879,
+      "source_sha256": "6d6e13aa25c571a88ca857ca8e41794008eb34582a9ab075aa41222e7b8f0cff",
+      "target_sha256": "992ee1a3608d256f0bf7626c667b894f6e142ea0d7d383118a3d66f45ae2d6a5",
+      "patch_size": 21629264,
+      "patch_sha256": "d1ba413c5034e8f11d0443e5e6487aa238726725324f811569154d73bb48cb50",
+      "changed_blocks": 22,
+      "raw_changed_bytes": 23003879
+    },
+    {
+      "species": "Smelt",
+      "bundle": "fishs_assets_fishingame_488_snetok.bundle",
+      "patch": "patches/fishs_assets_fishingame_488_snetok.bundle.f4kp",
+      "textures": {
+        "color": [
+          "SmeltPSD",
+          "RiapPSDSpec"
+        ],
+        "normal": [
+          "AyuT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -5986489675457531007,
+        -5503916513337681373,
+        -7561754372685299844
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "e5459e63e8d2d51e8f9959890109d56decc40dab44d89bc9062683eddf1f843c",
+          "after_sha256": "5cd96e9566f9b3be695c190f8aad474d5a1da57f0db41fb3239bcca528473ef1"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "e5459e63e8d2d51e8f9959890109d56decc40dab44d89bc9062683eddf1f843c",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 874323,
+      "target_size": 32752421,
+      "source_sha256": "e5459e63e8d2d51e8f9959890109d56decc40dab44d89bc9062683eddf1f843c",
+      "target_sha256": "5cd96e9566f9b3be695c190f8aad474d5a1da57f0db41fb3239bcca528473ef1",
+      "patch_size": 29927260,
+      "patch_sha256": "3bcf42bbc2ecea7d0fcfaea83f26490f84cc3e49999c366c54a508e54afd51f3",
+      "changed_blocks": 32,
+      "raw_changed_bytes": 32752421
+    },
+    {
+      "species": "Siberian Stone Loach",
+      "bundle": "fishs_assets_fishingame_499_viun.bundle",
+      "patch": "patches/fishs_assets_fishingame_499_viun.bundle.f4kp",
+      "textures": {
+        "color": [
+          "FukudozyouT0_t",
+          "FukudozyouT1_t",
+          "FukudozyouT0_a",
+          "FukudozyouT0_b"
+        ],
+        "normal": [
+          "FukudozyouT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -1534408994256666782,
+        -7911827496876152422,
+        -1464380441932560121,
+        -8148362781739953911,
+        5209257880291308517
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "3d6f1c55bb616afb39474bcc68de3970eeedd64262bd2782dcc527f61c4b10c7",
+          "after_sha256": "ff10bfa368fe5a5e9442ef465feedd667a326b0d23e621ba4e2fbaeb09e905b5"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "3d6f1c55bb616afb39474bcc68de3970eeedd64262bd2782dcc527f61c4b10c7",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1245378,
+      "target_size": 47033552,
+      "source_sha256": "3d6f1c55bb616afb39474bcc68de3970eeedd64262bd2782dcc527f61c4b10c7",
+      "target_sha256": "ff10bfa368fe5a5e9442ef465feedd667a326b0d23e621ba4e2fbaeb09e905b5",
+      "patch_size": 43537844,
+      "patch_sha256": "ad348f948317f0185bc6e3f57de9f39667321b3818734e74bbd3f182c2fbb01b",
+      "changed_blocks": 45,
+      "raw_changed_bytes": 47033552
+    },
+    {
+      "species": "Perch",
+      "bundle": "fishs_assets_fishingame_4_okun.bundle",
+      "patch": "patches/fishs_assets_fishingame_4_okun.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Perch_Small",
+          "Perch_Big",
+          "Perch_Trof"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        9039433601514791089,
+        5491200688304951073,
+        -2284267521865946788
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "bf4ed5fe7e18289ee932fcc6039de85cf08b6f39f6e1e04bd985dfd207fab63e",
+          "after_sha256": "7b4c64742168b7ad26acaa1a6fe4897240dcba67497a99906837a66dc3cdad17"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "bf4ed5fe7e18289ee932fcc6039de85cf08b6f39f6e1e04bd985dfd207fab63e",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 15261431,
+      "target_size": 31446486,
+      "source_sha256": "bf4ed5fe7e18289ee932fcc6039de85cf08b6f39f6e1e04bd985dfd207fab63e",
+      "target_sha256": "7b4c64742168b7ad26acaa1a6fe4897240dcba67497a99906837a66dc3cdad17",
+      "patch_size": 29006049,
+      "patch_sha256": "54842b29e3be72c877ad445c5b877faf62896d6241e5b7364ae5590538b1103d",
+      "changed_blocks": 30,
+      "raw_changed_bytes": 31446486
+    },
+    {
+      "species": "Ice Loach",
+      "bundle": "fishs_assets_fishingame_503_iceviun.bundle",
+      "patch": "patches/fishs_assets_fishingame_503_iceviun.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Ice"
+        ],
+        "normal": [
+          "viun_n"
+        ]
+      },
+      "changed_texture_ids": [
+        8787439694535621539,
+        8764320813526928803
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "823c7b9123fcb4421f18576898ea45d07aa001f96e4339c0aaead6085f4ef33c",
+          "after_sha256": "22903bf065939588efdc08d847cec46ea488a3da5bb6d128136b90a378c87d81"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "823c7b9123fcb4421f18576898ea45d07aa001f96e4339c0aaead6085f4ef33c",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 291237,
+      "target_size": 15828296,
+      "source_sha256": "823c7b9123fcb4421f18576898ea45d07aa001f96e4339c0aaead6085f4ef33c",
+      "target_sha256": "22903bf065939588efdc08d847cec46ea488a3da5bb6d128136b90a378c87d81",
+      "patch_size": 14624877,
+      "patch_sha256": "8ccc87bf62d41f7de0594d914942351da0a7f68b17a4cde0247ab3e45a55c270",
+      "changed_blocks": 16,
+      "raw_changed_bytes": 15828296
+    },
+    {
+      "species": "Puzanok / Danube Shad",
+      "bundle": "fishs_assets_fishingame_506_puzanok.bundle",
+      "patch": "patches/fishs_assets_fishingame_506_puzanok.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Pusan",
+          "Pusan_s"
+        ],
+        "normal": [
+          "KonosiroT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -4396170170841179175,
+        -5319302114712810870,
+        4376824063928355496
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "7883458606faa4e53d66a20a7cfc5c24fd50ef8f867ebbb137a785d81795d28f",
+          "after_sha256": "b6af96d92453a46e26c8b0e47da89a1830c14f2b736670462a2133e024db10ce"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "7883458606faa4e53d66a20a7cfc5c24fd50ef8f867ebbb137a785d81795d28f",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 979262,
+      "target_size": 35566755,
+      "source_sha256": "7883458606faa4e53d66a20a7cfc5c24fd50ef8f867ebbb137a785d81795d28f",
+      "target_sha256": "b6af96d92453a46e26c8b0e47da89a1830c14f2b736670462a2133e024db10ce",
+      "patch_size": 33183761,
+      "patch_sha256": "29b14eea27c4825699a0e235611e52329b24737afa0998c8beec72c3f7843815",
+      "changed_blocks": 34,
+      "raw_changed_bytes": 35566755
+    },
+    {
+      "species": "Rainbow Trout",
+      "bundle": "fishs_assets_fishingame_50_forelradug.bundle",
+      "patch": "patches/fishs_assets_fishingame_50_forelradug.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Color2",
+          "blesk",
+          "Opacity"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        3647807365348211558,
+        -641904567839561505,
+        2405719324551343674,
+        -2167372426327953358
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "6c5708154030c74d76051d4db4995e2019dd499ec4566bcd538fd64af4af5746",
+          "after_sha256": "2b1ac434c92ea5bcadb2dadc4866ad8dce77ae99229b455c3d717a02343cfad7"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "6c5708154030c74d76051d4db4995e2019dd499ec4566bcd538fd64af4af5746",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 7746430,
+      "target_size": 48893658,
+      "source_sha256": "6c5708154030c74d76051d4db4995e2019dd499ec4566bcd538fd64af4af5746",
+      "target_sha256": "2b1ac434c92ea5bcadb2dadc4866ad8dce77ae99229b455c3d717a02343cfad7",
+      "patch_size": 45085760,
+      "patch_sha256": "da8d10544e49f52af8011efa24e0c102ce9fd27d7e38fd9bf71c450d7f34d086",
+      "changed_blocks": 47,
+      "raw_changed_bytes": 48893658
+    },
+    {
+      "species": "White Sturgeon",
+      "bundle": "fishs_assets_fishingame_511_osetrwhite.bundle",
+      "patch": "patches/fishs_assets_fishingame_511_osetrwhite.bundle.f4kp",
+      "textures": {
+        "color": [
+          "AcipenserWtPSD",
+          "Acipenser"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        2384965937024979528,
+        -8582342708993393892
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "cb53a9391dfc0f7010ac67af3c23aa82b5ddc652a5c20ef7b7eb2579e4933441",
+          "after_sha256": "27e05b6f80ed440604a9839aa123fd30805f9ab9a931e0ec49bc34bdd2678525"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "cb53a9391dfc0f7010ac67af3c23aa82b5ddc652a5c20ef7b7eb2579e4933441",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2864804,
+      "target_size": 20929344,
+      "source_sha256": "cb53a9391dfc0f7010ac67af3c23aa82b5ddc652a5c20ef7b7eb2579e4933441",
+      "target_sha256": "27e05b6f80ed440604a9839aa123fd30805f9ab9a931e0ec49bc34bdd2678525",
+      "patch_size": 19377751,
+      "patch_sha256": "c7e86017ebbde360aab4b129c83ddc2692e2fa41498f3ebd311ceca04818f40b",
+      "changed_blocks": 20,
+      "raw_changed_bytes": 20929344
+    },
+    {
+      "species": "Bluefish",
+      "bundle": "fishs_assets_fishingame_527_blue.bundle",
+      "patch": "patches/fishs_assets_fishingame_527_blue.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Bluefish_Diffuse",
+          "Bluefish_Reflection"
+        ],
+        "normal": [
+          "Bluefish_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        4112304924851752118,
+        -563278552356380532,
+        6802170678465284714
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "67ab584c0869501da31858174aee31a04e8c608ba3a6767b07f41bbf6f8d6f67",
+          "after_sha256": "e64f3063f9188379e0d57d21c33c6b8cd7d36fcd6fe0f4d7c4469c0576338860"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "67ab584c0869501da31858174aee31a04e8c608ba3a6767b07f41bbf6f8d6f67",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2433117,
+      "target_size": 35917570,
+      "source_sha256": "67ab584c0869501da31858174aee31a04e8c608ba3a6767b07f41bbf6f8d6f67",
+      "target_sha256": "e64f3063f9188379e0d57d21c33c6b8cd7d36fcd6fe0f4d7c4469c0576338860",
+      "patch_size": 33260802,
+      "patch_sha256": "dff1ab2c8004da3f67197a3d441d132fec2504d81dc2e32e578bb2c8f2d0654d",
+      "changed_blocks": 35,
+      "raw_changed_bytes": 35917570
+    },
+    {
+      "species": "Allis Shad",
+      "bundle": "fishs_assets_fishingame_529_allis.bundle",
+      "patch": "patches/fishs_assets_fishingame_529_allis.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Alosa",
+          "Pusan",
+          "KonosiroT0_a"
+        ],
+        "normal": [
+          "KonosiroT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        5552067168557291310,
+        -4396170170841179175,
+        -8807548788960557630,
+        4376824063928355496
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "56807bc339d747921239b2c18ad1767fad19498025c31a2e51e126f5ca706244",
+          "after_sha256": "cdfc6ac95fb9fd158e3224ed64f2d615e103116755e4082348b5f49b6bf05742"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "56807bc339d747921239b2c18ad1767fad19498025c31a2e51e126f5ca706244",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1034671,
+      "target_size": 43261691,
+      "source_sha256": "56807bc339d747921239b2c18ad1767fad19498025c31a2e51e126f5ca706244",
+      "target_sha256": "cdfc6ac95fb9fd158e3224ed64f2d615e103116755e4082348b5f49b6bf05742",
+      "patch_size": 40835262,
+      "patch_sha256": "b551c967e62b41453f5b9c3dd390e8592b3d4a6a40aa3ae350ecc3c864f1613e",
+      "changed_blocks": 42,
+      "raw_changed_bytes": 43261691
+    },
+    {
+      "species": "Marble Trout",
+      "bundle": "fishs_assets_fishingame_533_marbletrout.bundle",
+      "patch": "patches/fishs_assets_fishingame_533_marbletrout.bundle.f4kp",
+      "textures": {
+        "color": [
+          "marblePSD",
+          "feroxPSD",
+          "feroxPSDYoung",
+          "golecYungPSD",
+          "KarafutomasuFT0_n",
+          "aspPSD",
+          "KarafutomasuFT0_b",
+          "KarafutomasuFT0_a"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        1675152145190298010,
+        2223174704226422271,
+        -4050049071095963983,
+        -5354172171577776983,
+        -3734420387092553469,
+        -2478108171305122249,
+        -2110633596738962851,
+        998304549466825330
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "d3f54bc6a7374565d0c1c8b41f8869c13a79fce4bb5d6fdd993f7d0d43629337",
+          "after_sha256": "d1be3cf7df6c526a27aec113f21a18a1f3ed7564005767897d133dfae1583086"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "d3f54bc6a7374565d0c1c8b41f8869c13a79fce4bb5d6fdd993f7d0d43629337",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 3485855,
+      "target_size": 91936843,
+      "source_sha256": "d3f54bc6a7374565d0c1c8b41f8869c13a79fce4bb5d6fdd993f7d0d43629337",
+      "target_sha256": "d1be3cf7df6c526a27aec113f21a18a1f3ed7564005767897d133dfae1583086",
+      "patch_size": 85314326,
+      "patch_sha256": "4266bf1f0c16cdfcbb225ce044dc00a8438f03b17202c33adf25561492d91cb8",
+      "changed_blocks": 88,
+      "raw_changed_bytes": 91936843
+    },
+    {
+      "species": "Albino Wels Catfish",
+      "bundle": "fishs_assets_fishingame_534_somalb.bundle",
+      "patch": "patches/fishs_assets_fishingame_534_somalb.bundle.f4kp",
+      "textures": {
+        "color": [
+          "AlbinoDiff",
+          "NamazuT0_t",
+          "NamazuT0_a"
+        ],
+        "normal": [
+          "NamazuT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -5981361765121797276,
+        -482357442713527721,
+        959130558985406695,
+        9118347744860050126
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "62366307f609632c0584659c5e4a59a0cf6bacafcddfe035f2a1f65709450add",
+          "after_sha256": "a41385df7c3bd09fcbad6e4a2b182670d1677742dac53e938f13344bd813a4b6"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "62366307f609632c0584659c5e4a59a0cf6bacafcddfe035f2a1f65709450add",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1350226,
+      "target_size": 44373178,
+      "source_sha256": "62366307f609632c0584659c5e4a59a0cf6bacafcddfe035f2a1f65709450add",
+      "target_sha256": "a41385df7c3bd09fcbad6e4a2b182670d1677742dac53e938f13344bd813a4b6",
+      "patch_size": 40620827,
+      "patch_sha256": "ca8ac18864266be4499ed0b510cfcaa9e2120942c98e6483c915f78f8f9f3fae",
+      "changed_blocks": 43,
+      "raw_changed_bytes": 44373178
+    },
+    {
+      "species": "Atlantic Cod - Normal",
+      "bundle": "fishs_assets_fishingame_535_tresk.bundle",
+      "patch": "patches/fishs_assets_fishingame_535_tresk.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Cod_Small_Color",
+          "Cod_Color",
+          "Cod_big_color",
+          "Cod_Blesk",
+          "Opacity"
+        ],
+        "normal": [
+          "cod_normal"
+        ]
+      },
+      "changed_texture_ids": [
+        4859940385728309212,
+        5663591226235636303,
+        6149822417511320528,
+        7841342191213288920,
+        5091002645904377572,
+        4435707253314840063
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "8c879536ed6454ed7a2aa8b40f79767869b936fcce5d516c313d304c34c2bd09",
+          "after_sha256": "a593c1ba52d122a6ced0a46a2c1686b4cafbab043b32642dde7eb1e25d6e3262"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "8c879536ed6454ed7a2aa8b40f79767869b936fcce5d516c313d304c34c2bd09",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 11491187,
+      "target_size": 119610309,
+      "source_sha256": "8c879536ed6454ed7a2aa8b40f79767869b936fcce5d516c313d304c34c2bd09",
+      "target_sha256": "a593c1ba52d122a6ced0a46a2c1686b4cafbab043b32642dde7eb1e25d6e3262",
+      "patch_size": 108694908,
+      "patch_sha256": "923f65dce7ed35791b40fd24c5f2d8167f60116ab65aea9c2417e16fe179a41a",
+      "changed_blocks": 115,
+      "raw_changed_bytes": 119610309
+    },
+    {
+      "species": "Atlantic Cod - Large",
+      "bundle": "fishs_assets_fishingame_535_tresk_big.bundle",
+      "patch": "patches/fishs_assets_fishingame_535_tresk_big.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Cod_Small_Color",
+          "Cod_Color",
+          "Cod_big_color",
+          "Cod_Blesk",
+          "Opacity"
+        ],
+        "normal": [
+          "cod_normal"
+        ]
+      },
+      "changed_texture_ids": [
+        4859940385728309212,
+        5663591226235636303,
+        6149822417511320528,
+        7841342191213288920,
+        5091002645904377572,
+        4435707253314840063
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "c1c3ab6b23780a52242001c94ef5847938e64a3ebec26e2158805e8b25b9c40a",
+          "after_sha256": "08cf27e63c1df3c59aecbb79eb07a18680e634320d944a25e8061314714ade7a"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "c1c3ab6b23780a52242001c94ef5847938e64a3ebec26e2158805e8b25b9c40a",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 11181828,
+      "target_size": 119207830,
+      "source_sha256": "c1c3ab6b23780a52242001c94ef5847938e64a3ebec26e2158805e8b25b9c40a",
+      "target_sha256": "08cf27e63c1df3c59aecbb79eb07a18680e634320d944a25e8061314714ade7a",
+      "patch_size": 108368236,
+      "patch_sha256": "852edb2e3cc3134510fefa0b9e624886fab579921b90ea8928543ee38b0ccf73",
+      "changed_blocks": 114,
+      "raw_changed_bytes": 119207830
+    },
+    {
+      "species": "Haddock",
+      "bundle": "fishs_assets_fishingame_538_haddy.bundle",
+      "patch": "patches/fishs_assets_fishingame_538_haddy.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Haddy",
+          "Haddy_s",
+          "Taimen_spec"
+        ],
+        "normal": [
+          "Palia_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -6544215180341084111,
+        -271088620196702344,
+        404952828346327732,
+        6188608055716318686
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "8697ddfa2a2494b6f0410ce621aa923251f7d557dca962618e921e198fafe703",
+          "after_sha256": "24bcc5a50649cf21969e6cdc8a0f1715710990afd0d6d4859a0ba5aeb8621d2d"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "8697ddfa2a2494b6f0410ce621aa923251f7d557dca962618e921e198fafe703",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1127360,
+      "target_size": 19089259,
+      "source_sha256": "8697ddfa2a2494b6f0410ce621aa923251f7d557dca962618e921e198fafe703",
+      "target_sha256": "24bcc5a50649cf21969e6cdc8a0f1715710990afd0d6d4859a0ba5aeb8621d2d",
+      "patch_size": 17978089,
+      "patch_sha256": "1a81b15e631bb19bbfdbc5d2a5f52634e630781e05830961bae983c418683213",
+      "changed_blocks": 19,
+      "raw_changed_bytes": 19089259
+    },
+    {
+      "species": "Tench",
+      "bundle": "fishs_assets_fishingame_54_lin.bundle",
+      "patch": "patches/fishs_assets_fishingame_54_lin.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Tench_low_Small",
+          "Tench_low_Trofl",
+          "Tench_low_BaseColor",
+          "Tench_low_Alpha",
+          "RGB_2"
+        ],
+        "normal": [
+          "Tench_low_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -2272391397240696484,
+        -2198492473534290103,
+        -680534175275381375,
+        4873803619696366764,
+        723122637268071723,
+        -4897247306317778480
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "8408e19ef0aa0adef1ab509fcf57b11cb0b0f377a9d3f4ceaf916c0a4466f743",
+          "after_sha256": "d0b2961bad695a1c78389a5bc5676c4beffeb2bf997b48212a62d366e123f64e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "8408e19ef0aa0adef1ab509fcf57b11cb0b0f377a9d3f4ceaf916c0a4466f743",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 14867388,
+      "target_size": 104030613,
+      "source_sha256": "8408e19ef0aa0adef1ab509fcf57b11cb0b0f377a9d3f4ceaf916c0a4466f743",
+      "target_sha256": "d0b2961bad695a1c78389a5bc5676c4beffeb2bf997b48212a62d366e123f64e",
+      "patch_size": 98812225,
+      "patch_sha256": "f645abecd146715e50d92326888ff4dc25dc0dc3c0b2ebc373e340a499472400",
+      "changed_blocks": 100,
+      "raw_changed_bytes": 104030613
+    },
+    {
+      "species": "Blue Catfish",
+      "bundle": "fishs_assets_fishingame_551_catfishblue.bundle",
+      "patch": "patches/fishs_assets_fishingame_551_catfishblue.bundle.f4kp",
+      "textures": {
+        "color": [
+          "catfishBluePSD"
+        ],
+        "normal": [
+          "bullhead_n"
+        ]
+      },
+      "changed_texture_ids": [
+        8474988898707527027,
+        -3646740363008499298
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "2064c3e3cd8338fc86da4f1b43a581f9a29f07a2716af9eef97a0bcb9f3d97a2",
+          "after_sha256": "34200a1f0ee20d1d0eaece0b02931112f4c10f6dabd4dd72eb3ad98a8922cb07"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "2064c3e3cd8338fc86da4f1b43a581f9a29f07a2716af9eef97a0bcb9f3d97a2",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 721250,
+      "target_size": 38436898,
+      "source_sha256": "2064c3e3cd8338fc86da4f1b43a581f9a29f07a2716af9eef97a0bcb9f3d97a2",
+      "target_sha256": "34200a1f0ee20d1d0eaece0b02931112f4c10f6dabd4dd72eb3ad98a8922cb07",
+      "patch_size": 32147278,
+      "patch_sha256": "bf38656335eeb9f7d6af60a8b44e0e93ff2b7231cf4643f5466885bd6da68813",
+      "changed_blocks": 37,
+      "raw_changed_bytes": 38436898
+    },
+    {
+      "species": "Koi - Large and Trophy",
+      "bundle": "fishs_assets_fishingame_553_koi.bundle",
+      "patch": "patches/fishs_assets_fishingame_553_koi.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Carp_Koi_1",
+          "Carp_refl"
+        ],
+        "normal": [
+          "Carp_Euro_Normal_02"
+        ]
+      },
+      "changed_texture_ids": [
+        3562045299100893834,
+        -485824494595839494,
+        -9044407837601274611
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "685996074ec6da3e896433035f8ec15ff2eea52df48185f654f6f09fa8314224",
+          "after_sha256": "61ca672ab5b20a901a8fafbe5533a791ddeadef004e2c0841bb85a41c01282f7"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "685996074ec6da3e896433035f8ec15ff2eea52df48185f654f6f09fa8314224",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 891310,
+      "target_size": 29680280,
+      "source_sha256": "685996074ec6da3e896433035f8ec15ff2eea52df48185f654f6f09fa8314224",
+      "target_sha256": "61ca672ab5b20a901a8fafbe5533a791ddeadef004e2c0841bb85a41c01282f7",
+      "patch_size": 27267495,
+      "patch_sha256": "cbb42d84fe562f1d48053c51f2262b89de9c96b9fc64d76ad787346027b6544b",
+      "changed_blocks": 29,
+      "raw_changed_bytes": 29680280
+    },
+    {
+      "species": "Koi - Normal",
+      "bundle": "fishs_assets_fishingame_553_koi_small.bundle",
+      "patch": "patches/fishs_assets_fishingame_553_koi_small.bundle.f4kp",
+      "textures": {
+        "color": [
+          "KoiT0_553",
+          "KoiT0_t",
+          "KoiT0_a"
+        ],
+        "normal": [
+          "KoiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -4929919136890224616,
+        -194972411285404359,
+        -2528856158587269612,
+        986822075895613359
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "3aed8d93ebd585f17d1ce60d4313ba745bde8f9a80ef462b9bff8caa9ec16c0b",
+          "after_sha256": "5628e35cae176761cd2a70bdb0a50abaef7da53c46a3df7ce01e70ad08ee651e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "3aed8d93ebd585f17d1ce60d4313ba745bde8f9a80ef462b9bff8caa9ec16c0b",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1511757,
+      "target_size": 37729711,
+      "source_sha256": "3aed8d93ebd585f17d1ce60d4313ba745bde8f9a80ef462b9bff8caa9ec16c0b",
+      "target_sha256": "5628e35cae176761cd2a70bdb0a50abaef7da53c46a3df7ce01e70ad08ee651e",
+      "patch_size": 34584583,
+      "patch_sha256": "b5aca6bf41e60789b6b337523fbaae494ad777c871cb70d5240a5cb7ffa37c6c",
+      "changed_blocks": 36,
+      "raw_changed_bytes": 37729711
+    },
+    {
+      "species": "Icy Grayling",
+      "bundle": "fishs_assets_fishingame_558_icyharius.bundle",
+      "patch": "patches/fishs_assets_fishingame_558_icyharius.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Grayling_Icy",
+          "Grayling_PSD_reflect",
+          "Grayling_Spec"
+        ],
+        "normal": [
+          "Grayling_01_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        5964679633878770270,
+        -8692311372280842507,
+        -330011443441616018,
+        4516665110599489586
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "83f69bc994df9403516123d8f0bc2d2872b7efdde23d9f896c8e42477cb588f3",
+          "after_sha256": "8a31fe62a82ca043d9eb372dc525686df08e0f654368f5c2f845fdbde312ca94"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "83f69bc994df9403516123d8f0bc2d2872b7efdde23d9f896c8e42477cb588f3",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1081462,
+      "target_size": 45737285,
+      "source_sha256": "83f69bc994df9403516123d8f0bc2d2872b7efdde23d9f896c8e42477cb588f3",
+      "target_sha256": "8a31fe62a82ca043d9eb372dc525686df08e0f654368f5c2f845fdbde312ca94",
+      "patch_size": 42205641,
+      "patch_sha256": "51dbbd93c0723faea17d0dc34adab2c1b50b1ddc47ce21aad5cf150df9057329",
+      "changed_blocks": 44,
+      "raw_changed_bytes": 45737285
+    },
+    {
+      "species": "Atlantic Salmon",
+      "bundle": "fishs_assets_fishingame_55_salmon.bundle",
+      "patch": "patches/fishs_assets_fishingame_55_salmon.bundle.f4kp",
+      "textures": {
+        "color": [
+          "wildsalmonOzPSD"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        5700651907177333808
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "d7b414bae75f5108e3f4bf157b23802865da26ce6f60edf559fdc2e79569e928",
+          "after_sha256": "1ccd585f95e21bb221abd0e00f0fe24ba5fc63ac87a679dcb607c5eacb8dae8a"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "d7b414bae75f5108e3f4bf157b23802865da26ce6f60edf559fdc2e79569e928",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 281913,
+      "target_size": 11273121,
+      "source_sha256": "d7b414bae75f5108e3f4bf157b23802865da26ce6f60edf559fdc2e79569e928",
+      "target_sha256": "1ccd585f95e21bb221abd0e00f0fe24ba5fc63ac87a679dcb607c5eacb8dae8a",
+      "patch_size": 10800862,
+      "patch_sha256": "87d855043822e06d6165c0c92a38c4b9c4524ed83e854f839c91b2a7f72ed6ab",
+      "changed_blocks": 11,
+      "raw_changed_bytes": 11273121
+    },
+    {
+      "species": "Blue Marlin",
+      "bundle": "fishs_assets_fishingame_562_marlin.bundle",
+      "patch": "patches/fishs_assets_fishingame_562_marlin.bundle.f4kp",
+      "textures": {
+        "color": [
+          "body_diffuse_A",
+          "body_diffuse"
+        ],
+        "normal": [
+          "body_normal"
+        ]
+      },
+      "changed_texture_ids": [
+        7701395009657346487,
+        8182551652173353152,
+        -5830493647538940621
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "c6e8eed4d6b24a26e25d1def0b472c830050faf5d14e006968979a7858a49a7b",
+          "after_sha256": "db32a8c6da11c2f9214ca41fdbecfb7923010b6e1311bced2829b9c3782267a6"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "c6e8eed4d6b24a26e25d1def0b472c830050faf5d14e006968979a7858a49a7b",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2743569,
+      "target_size": 31556425,
+      "source_sha256": "c6e8eed4d6b24a26e25d1def0b472c830050faf5d14e006968979a7858a49a7b",
+      "target_sha256": "db32a8c6da11c2f9214ca41fdbecfb7923010b6e1311bced2829b9c3782267a6",
+      "patch_size": 29492589,
+      "patch_sha256": "4069470353be2c0273cdd956bfc2ad6855df32dd9b6c6c8544a2e57283605ce2",
+      "changed_blocks": 31,
+      "raw_changed_bytes": 31556425
+    },
+    {
+      "species": "Atlantic Bonito",
+      "bundle": "fishs_assets_fishingame_563_pelam.bundle",
+      "patch": "patches/fishs_assets_fishingame_563_pelam.bundle.f4kp",
+      "textures": {
+        "color": [
+          "pelamida",
+          "TunaGloss"
+        ],
+        "normal": [
+          "TUNAPsd_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -9096764233093208748,
+        7702847104402911036,
+        -528388099994851279
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "1867bc15cc7888c48ca85d15c7e84d2e2e7c6a19deecb5684b3107f6eafeecce",
+          "after_sha256": "f834543e292b9e01fc16f15b9ebdbd72aad1782d143182c71d35c0698073372c"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "1867bc15cc7888c48ca85d15c7e84d2e2e7c6a19deecb5684b3107f6eafeecce",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1074651,
+      "target_size": 29573312,
+      "source_sha256": "1867bc15cc7888c48ca85d15c7e84d2e2e7c6a19deecb5684b3107f6eafeecce",
+      "target_sha256": "f834543e292b9e01fc16f15b9ebdbd72aad1782d143182c71d35c0698073372c",
+      "patch_size": 26899490,
+      "patch_sha256": "c8ebbf499927dd707421a4a81b6227238e52870c369942fbabfff9e9331337f7",
+      "changed_blocks": 29,
+      "raw_changed_bytes": 29573312
+    },
+    {
+      "species": "Conger Eel",
+      "bundle": "fishs_assets_fishingame_564_konger.bundle",
+      "patch": "patches/fishs_assets_fishingame_564_konger.bundle.f4kp",
+      "textures": {
+        "color": [
+          "UnagiT0",
+          "KongerPSD",
+          "UnagiT0_a"
+        ],
+        "normal": [
+          "UnagiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -3070470058430513115,
+        1544033845517496913,
+        -6703097810516299633,
+        -5491102008963969747
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "e7785403fd12c68c579ba3027316cc401b3ed4db52ef7ff8ce61cbbdff69cb38",
+          "after_sha256": "90a2ab72f4aca6526dfc94267bba163c6453b49f3d542c0172a747674456f0cb"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "e7785403fd12c68c579ba3027316cc401b3ed4db52ef7ff8ce61cbbdff69cb38",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 871056,
+      "target_size": 31493889,
+      "source_sha256": "e7785403fd12c68c579ba3027316cc401b3ed4db52ef7ff8ce61cbbdff69cb38",
+      "target_sha256": "90a2ab72f4aca6526dfc94267bba163c6453b49f3d542c0172a747674456f0cb",
+      "patch_size": 28932812,
+      "patch_sha256": "d738511caeab0bf4256952d0e0ac13050d1ad0b8648c6ead6e5135390ebff0eb",
+      "changed_blocks": 31,
+      "raw_changed_bytes": 31493889
+    },
+    {
+      "species": "Yellowfin Tuna - Striped",
+      "bundle": "fishs_assets_fishingame_597_tuna.bundle",
+      "patch": "patches/fishs_assets_fishingame_597_tuna.bundle.f4kp",
+      "textures": {
+        "color": [
+          "StripedPSD",
+          "Tuna_s",
+          "KihadaT0_a"
+        ],
+        "normal": [
+          "KihadaT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -214998030518085499,
+        -6388709788388441205,
+        -4609596107423816041,
+        -160519229162613641
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "c7de182d56dfcf5cddc24399f11c798bd86884512477f83db1fbb1606213e1b6",
+          "after_sha256": "934bfe7bf337dfbe9d66aca2b572146867221295fa65d9ce9ff5046982a2c00e"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "c7de182d56dfcf5cddc24399f11c798bd86884512477f83db1fbb1606213e1b6",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1411565,
+      "target_size": 34634501,
+      "source_sha256": "c7de182d56dfcf5cddc24399f11c798bd86884512477f83db1fbb1606213e1b6",
+      "target_sha256": "934bfe7bf337dfbe9d66aca2b572146867221295fa65d9ce9ff5046982a2c00e",
+      "patch_size": 31648191,
+      "patch_sha256": "204ec3df14e4d0a7edf1bb4a348d76ba6330a6780eeea4c0facc3346456d7dad",
+      "changed_blocks": 34,
+      "raw_changed_bytes": 34634501
+    },
+    {
+      "species": "Sea Fox",
+      "bundle": "fishs_assets_fishingame_598_mfox.bundle",
+      "patch": "patches/fishs_assets_fishingame_598_mfox.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ScattPSD"
+        ],
+        "normal": [
+          "texture_n"
+        ]
+      },
+      "changed_texture_ids": [
+        1488945788059185104,
+        -5230526213573820772
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "0d6e641e5e235a308b88dc1b5b7ad5a0b0b88e7ee21bcd69ba0f6e39ae64ddb8",
+          "after_sha256": "67f6622a2112dbaae3e369b7375bbb06001d1b765a030d5abef921e1fc026ef8"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "0d6e641e5e235a308b88dc1b5b7ad5a0b0b88e7ee21bcd69ba0f6e39ae64ddb8",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 3676055,
+      "target_size": 27506806,
+      "source_sha256": "0d6e641e5e235a308b88dc1b5b7ad5a0b0b88e7ee21bcd69ba0f6e39ae64ddb8",
+      "target_sha256": "67f6622a2112dbaae3e369b7375bbb06001d1b765a030d5abef921e1fc026ef8",
+      "patch_size": 25581133,
+      "patch_sha256": "6fbe5edf78e29156d8fc02eb8fe68e7eba876156bef0feeb5cdc559edd84fcda",
+      "changed_blocks": 27,
+      "raw_changed_bytes": 27506806
+    },
+    {
+      "species": "Ruffe",
+      "bundle": "fishs_assets_fishingame_5_perch.bundle",
+      "patch": "patches/fishs_assets_fishingame_5_perch.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ersh_PSD"
+        ],
+        "normal": [
+          "ersh_n"
+        ]
+      },
+      "changed_texture_ids": [
+        6391351757500386246,
+        8561132448225488272
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "df360f17fa4459a9f1050a9f1226e46aff67b485b1d37d9efc3f8dc501b91c0a",
+          "after_sha256": "626706e08271097d122d1241d9c9a18a036e23463a2c411b77dfe419938af830"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "df360f17fa4459a9f1050a9f1226e46aff67b485b1d37d9efc3f8dc501b91c0a",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 691034,
+      "target_size": 20975544,
+      "source_sha256": "df360f17fa4459a9f1050a9f1226e46aff67b485b1d37d9efc3f8dc501b91c0a",
+      "target_sha256": "626706e08271097d122d1241d9c9a18a036e23463a2c411b77dfe419938af830",
+      "patch_size": 19593509,
+      "patch_sha256": "9daccb309963f2ec5760e5b62c75416168c72f4566408ea50d19753e56aa7785",
+      "changed_blocks": 21,
+      "raw_changed_bytes": 20975544
+    },
+    {
+      "species": "Balkan Trout - Large",
+      "bundle": "fishs_assets_fishingame_601_forelbalkanbig.bundle",
+      "patch": "patches/fishs_assets_fishingame_601_forelbalkanbig.bundle.f4kp",
+      "textures": {
+        "color": [
+          "BalkanBigPSD",
+          "feroxPSDYoung",
+          "KarafutomasuFT0_n"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        4027759146348220179,
+        -4050049071095963983,
+        -3734420387092553469
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "611442acc3e08af75645260308e918b162be8e173d3beac1ffef6c39c7aa60fb",
+          "after_sha256": "c0e6538233993d5f3eec18a551b86a1091a828d6b127b3b9bb489d6665601dbe"
+        },
+        {
+          "before_sha256": "c0e6538233993d5f3eec18a551b86a1091a828d6b127b3b9bb489d6665601dbe",
+          "after_sha256": "7a9b8723bb42b402387e78f6786d656db78a75a916a06ab21e421b98595fcb0d"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "611442acc3e08af75645260308e918b162be8e173d3beac1ffef6c39c7aa60fb",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1673208,
+      "target_size": 16472861,
+      "source_sha256": "611442acc3e08af75645260308e918b162be8e173d3beac1ffef6c39c7aa60fb",
+      "target_sha256": "7a9b8723bb42b402387e78f6786d656db78a75a916a06ab21e421b98595fcb0d",
+      "patch_size": 14575737,
+      "patch_sha256": "e6ba720c7ff9fc54a139f424d91be10c214a3f67159bb74fe7390083b8e623dd",
+      "changed_blocks": 16,
+      "raw_changed_bytes": 16472861
+    },
+    {
+      "species": "Balkan Trout - Trophy",
+      "bundle": "fishs_assets_fishingame_601_forelbalkanmed.bundle",
+      "patch": "patches/fishs_assets_fishingame_601_forelbalkanmed.bundle.f4kp",
+      "textures": {
+        "color": [
+          "NizimasuT0_Balkan",
+          "NizimasuT0_Brook",
+          "NizimasuT0_n"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        -9086778955684126633,
+        -4812648168161625435,
+        142670120486446173
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "3aa29083ba2af4c2d437bfc60da2c8b3210f5b0631bbf57f9cacf536a91a522a",
+          "after_sha256": "e49a7317f24fa49e81b3a01788b16085bff9c40f8d22c468af8e25ed9de412c6"
+        },
+        {
+          "before_sha256": "e49a7317f24fa49e81b3a01788b16085bff9c40f8d22c468af8e25ed9de412c6",
+          "after_sha256": "12b9df65b9fa385931ebc13fcc8f2a617189fda4749afcbaa3909e02c3bd5e6f"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "3aa29083ba2af4c2d437bfc60da2c8b3210f5b0631bbf57f9cacf536a91a522a",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2200858,
+      "target_size": 22455528,
+      "source_sha256": "3aa29083ba2af4c2d437bfc60da2c8b3210f5b0631bbf57f9cacf536a91a522a",
+      "target_sha256": "12b9df65b9fa385931ebc13fcc8f2a617189fda4749afcbaa3909e02c3bd5e6f",
+      "patch_size": 20314339,
+      "patch_sha256": "3b9015839ef74e63fedbec61136ef90784274a1663fcefccf60d91a1cd5bd5be",
+      "changed_blocks": 22,
+      "raw_changed_bytes": 22455528
+    },
+    {
+      "species": "Balkan Trout - Normal",
+      "bundle": "fishs_assets_fishingame_601_forelbalkansmall.bundle",
+      "patch": "patches/fishs_assets_fishingame_601_forelbalkansmall.bundle.f4kp",
+      "textures": {
+        "color": [
+          "NizimasuT0_Balkan",
+          "NizimasuT0_Brook",
+          "NizimasuT0_n"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        -9086778955684126633,
+        -4812648168161625435,
+        142670120486446173
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "63690d05634e0861464ef1c5b93ec6a811df7138f47033d208fa1d5236d46ef8",
+          "after_sha256": "ff56706e3884872cea4231c7d72afea3aae801317a6c143de342310b4fa072e3"
+        },
+        {
+          "before_sha256": "ff56706e3884872cea4231c7d72afea3aae801317a6c143de342310b4fa072e3",
+          "after_sha256": "e27b0e52e39b4dce09ca6bbba70beb34d889778df1a2cb1961bf982873e982d0"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "63690d05634e0861464ef1c5b93ec6a811df7138f47033d208fa1d5236d46ef8",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2201191,
+      "target_size": 22455385,
+      "source_sha256": "63690d05634e0861464ef1c5b93ec6a811df7138f47033d208fa1d5236d46ef8",
+      "target_sha256": "e27b0e52e39b4dce09ca6bbba70beb34d889778df1a2cb1961bf982873e982d0",
+      "patch_size": 20314095,
+      "patch_sha256": "9748760221a08093ec6a27fe5a17b69e492582e642c2c69663e55b0845511535",
+      "changed_blocks": 22,
+      "raw_changed_bytes": 22455385
+    },
+    {
+      "species": "Goblin Shark",
+      "bundle": "fishs_assets_fishingame_603_goblinshark.bundle",
+      "patch": "patches/fishs_assets_fishingame_603_goblinshark.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Base_Color",
+          "Blesk"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        1413578341855678287,
+        -4357684630807994490,
+        -3991148317150400259
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "ae3c4891cefa36ee4873fc5b0dc96e5d94bdd47eb21f2d33f57d593b3f18be5c",
+          "after_sha256": "b7ad71338e65c9df4ebd4757d4ddd7b8f14a30bb8c8571edeab05aa3037c1e79"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "ae3c4891cefa36ee4873fc5b0dc96e5d94bdd47eb21f2d33f57d593b3f18be5c",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 5465288,
+      "target_size": 55696152,
+      "source_sha256": "ae3c4891cefa36ee4873fc5b0dc96e5d94bdd47eb21f2d33f57d593b3f18be5c",
+      "target_sha256": "b7ad71338e65c9df4ebd4757d4ddd7b8f14a30bb8c8571edeab05aa3037c1e79",
+      "patch_size": 48531115,
+      "patch_sha256": "c64c732533f4ee2e660ee885c7547d36714bdd9b5c6367af7a572a809e6a1557",
+      "changed_blocks": 54,
+      "raw_changed_bytes": 55696152
+    },
+    {
+      "species": "Burbot",
+      "bundle": "fishs_assets_fishingame_61_nalim.bundle",
+      "patch": "patches/fishs_assets_fishingame_61_nalim.bundle.f4kp",
+      "textures": {
+        "color": [
+          "ColorSmall",
+          "Color",
+          "Blesk"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        -8454208219335927939,
+        -6682360314152201485,
+        3049456279273970716,
+        7887518511913600321
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "75d080bad6b5a9de90f3d776713317ee22fa8d61bdcdd97d135c54d6131baa68",
+          "after_sha256": "3d7e1d182c82273cf03207083de346bf4dd9348de86e7e3d95cc82ddc03e95d1"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "75d080bad6b5a9de90f3d776713317ee22fa8d61bdcdd97d135c54d6131baa68",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 10411672,
+      "target_size": 87875549,
+      "source_sha256": "75d080bad6b5a9de90f3d776713317ee22fa8d61bdcdd97d135c54d6131baa68",
+      "target_sha256": "3d7e1d182c82273cf03207083de346bf4dd9348de86e7e3d95cc82ddc03e95d1",
+      "patch_size": 78015945,
+      "patch_sha256": "917a3a61dffa957c28b4a81095660b5af80f97d21e11f693fc151b4df92a8a64",
+      "changed_blocks": 84,
+      "raw_changed_bytes": 87875549
+    },
+    {
+      "species": "Pond Trout",
+      "bundle": "fishs_assets_fishingame_65_forelpond.bundle",
+      "patch": "patches/fishs_assets_fishingame_65_forelpond.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Black",
+          "prudBodyt",
+          "NizimasuT0",
+          "NizimasuT0_Gloss",
+          "Kumga_s",
+          "NizimasuT0_a"
+        ],
+        "normal": [
+          "NizimasuT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -8709947521840188905,
+        -7742812131503460766,
+        -1917145274094788659,
+        142670120486446173,
+        5844339714325635326,
+        5873614686380236228,
+        7682825426273904591
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "4db1288d8b02ffcb5b4042bdcff54dbce9bd5d6eb0c441fce37b57c1e57bbbd3",
+          "after_sha256": "d9be5a0a317013bfdf6393c1aeef38e91a1802e52661dc3913192bc1ba70fffc"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "4db1288d8b02ffcb5b4042bdcff54dbce9bd5d6eb0c441fce37b57c1e57bbbd3",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1710844,
+      "target_size": 64000824,
+      "source_sha256": "4db1288d8b02ffcb5b4042bdcff54dbce9bd5d6eb0c441fce37b57c1e57bbbd3",
+      "target_sha256": "d9be5a0a317013bfdf6393c1aeef38e91a1802e52661dc3913192bc1ba70fffc",
+      "patch_size": 58675186,
+      "patch_sha256": "d9c8b28202411c5d44a01135df26b711a9f5e2a1d1f5349d37f73e2569029372",
+      "changed_blocks": 62,
+      "raw_changed_bytes": 64000824
+    },
+    {
+      "species": "Beluga",
+      "bundle": "fishs_assets_fishingame_6_beluga.bundle",
+      "patch": "patches/fishs_assets_fishingame_6_beluga.bundle.f4kp",
+      "textures": {
+        "color": [
+          "beluga_diffuse"
+        ],
+        "normal": [
+          "beluga_normal"
+        ]
+      },
+      "changed_texture_ids": [
+        600022893806951699,
+        4048208135843651057
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "007c1884acc83290213c816df5d9eab9011543f1cbebfe2a1e15279f51872018",
+          "after_sha256": "97243885ea66976192c4d7f9ac1fcdfc6ce129ad4ca24ebea365ea9b7f47dcc2"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "007c1884acc83290213c816df5d9eab9011543f1cbebfe2a1e15279f51872018",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 2480808,
+      "target_size": 34813187,
+      "source_sha256": "007c1884acc83290213c816df5d9eab9011543f1cbebfe2a1e15279f51872018",
+      "target_sha256": "97243885ea66976192c4d7f9ac1fcdfc6ce129ad4ca24ebea365ea9b7f47dcc2",
+      "patch_size": 32762321,
+      "patch_sha256": "cd84ad0fe49d99b1520d235e8a2170899195ebc96cfc9a993498e8200cd4c52e",
+      "changed_blocks": 34,
+      "raw_changed_bytes": 34813187
+    },
+    {
+      "species": "Brook Charr",
+      "bundle": "fishs_assets_fishingame_74_palia.bundle",
+      "patch": "patches/fishs_assets_fishingame_74_palia.bundle.f4kp",
+      "textures": {
+        "color": [
+          "PaliPSD",
+          "KawamasuT0",
+          "KawamasuT0_b",
+          "KawamasuT0_b"
+        ],
+        "normal": [
+          "KawamasuT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        -1968835615880378165,
+        -8782525837162066675,
+        4486964633794639168,
+        8573541007252036476,
+        8778761381289029449
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "4d70b5746f537f266253572994cb148c45a75dbf408201767eb13fa9aa51d8a9",
+          "after_sha256": "459b5d33c97910b3fa07af5188ce58fb02a016626bf1223214dbb6c4e805fd49"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "4d70b5746f537f266253572994cb148c45a75dbf408201767eb13fa9aa51d8a9",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1733318,
+      "target_size": 58710881,
+      "source_sha256": "4d70b5746f537f266253572994cb148c45a75dbf408201767eb13fa9aa51d8a9",
+      "target_sha256": "459b5d33c97910b3fa07af5188ce58fb02a016626bf1223214dbb6c4e805fd49",
+      "patch_size": 54093103,
+      "patch_sha256": "65522b20b52643727dd9d43a8ae0fa2ecb62721399144c077b0122a7be8ac780",
+      "changed_blocks": 56,
+      "raw_changed_bytes": 58710881,
+      "scientific_name": "Salvelinus fontinalis"
+    },
+    {
+      "species": "Ide",
+      "bundle": "fishs_assets_fishingame_7_yaz.bundle",
+      "patch": "patches/fishs_assets_fishingame_7_yaz.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Base_Color",
+          "Turk_Color"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        7011896280666426931,
+        -4999032438042586516,
+        8277861602221452515
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "1c4672a33ce7297bb54e9108a226892d12ae26a11bf9cef95c934101d984fe49",
+          "after_sha256": "869191a1b1f024949d66f830087542d0e3c846a208a3a2cddc208cfacef7f1fc"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "1c4672a33ce7297bb54e9108a226892d12ae26a11bf9cef95c934101d984fe49",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 8617202,
+      "target_size": 51228712,
+      "source_sha256": "1c4672a33ce7297bb54e9108a226892d12ae26a11bf9cef95c934101d984fe49",
+      "target_sha256": "869191a1b1f024949d66f830087542d0e3c846a208a3a2cddc208cfacef7f1fc",
+      "patch_size": 47624972,
+      "patch_sha256": "ad245f20ea4470c4cbc049c9e2c5e3ed47cd4ee4e1dfa959b68309df157ab954",
+      "changed_blocks": 49,
+      "raw_changed_bytes": 51228712
+    },
+    {
+      "species": "Gudgeon",
+      "bundle": "fishs_assets_fishingame_8_peskar.bundle",
+      "patch": "patches/fishs_assets_fishingame_8_peskar.bundle.f4kp",
+      "textures": {
+        "color": [
+          "peskar"
+        ],
+        "normal": [
+          "TutifukiT0_n"
+        ]
+      },
+      "changed_texture_ids": [
+        6558426799379557127,
+        6802154010968844700
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "e614bb379f8da7d9697b8fba4592c3a82b70083fd87b0244e1a943e489bac2ba",
+          "after_sha256": "72e94c419751114f0341f95c79fa14ff5ae60ddc79c14da3cd09b2c216eff071"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "e614bb379f8da7d9697b8fba4592c3a82b70083fd87b0244e1a943e489bac2ba",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 1031094,
+      "target_size": 30509092,
+      "source_sha256": "e614bb379f8da7d9697b8fba4592c3a82b70083fd87b0244e1a943e489bac2ba",
+      "target_sha256": "72e94c419751114f0341f95c79fa14ff5ae60ddc79c14da3cd09b2c216eff071",
+      "patch_size": 28848977,
+      "patch_sha256": "5b6efdbfaeba8e2d705cd5a9bb41fd5f291c4e80b61548a83da320837518a43a",
+      "changed_blocks": 30,
+      "raw_changed_bytes": 30509092
+    },
+    {
+      "species": "Wild Carp - Normal",
+      "bundle": "fishs_assets_fishingame_91_sazan.bundle",
+      "patch": "patches/fishs_assets_fishingame_91_sazan.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Sazan_Color",
+          "Base_Color"
+        ],
+        "normal": [
+          "Normal",
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        230257644789717698,
+        -1358396099647591469,
+        -1189986746815278451,
+        -1277505515858596910
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "eb05d6970b48a87d621d0418956d6e4c003e46c71529f42b3109de9b1fe12703",
+          "after_sha256": "c7f22f34c98f986281b2dd57538a57adee96c759324eba42c5b812dccf8af083"
+        },
+        {
+          "before_sha256": "c7f22f34c98f986281b2dd57538a57adee96c759324eba42c5b812dccf8af083",
+          "after_sha256": "6763116d3b326641e6be01c81940085943a5bc5049370da3d83f7079aeede73b"
+        },
+        {
+          "before_sha256": "6763116d3b326641e6be01c81940085943a5bc5049370da3d83f7079aeede73b",
+          "after_sha256": "462aea79ad7adc44bbff8f7d1afc80f486bfb97736ecdc9b4fe140bf4b9fb478"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "eb05d6970b48a87d621d0418956d6e4c003e46c71529f42b3109de9b1fe12703",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 10938111,
+      "target_size": 55136687,
+      "source_sha256": "eb05d6970b48a87d621d0418956d6e4c003e46c71529f42b3109de9b1fe12703",
+      "target_sha256": "462aea79ad7adc44bbff8f7d1afc80f486bfb97736ecdc9b4fe140bf4b9fb478",
+      "patch_size": 50295162,
+      "patch_sha256": "76ef45fee30781e8496db556abbd7c26d32d0c34a200e4ecea10a670968a0d20",
+      "changed_blocks": 53,
+      "raw_changed_bytes": 55136687
+    },
+    {
+      "species": "Wild Carp - Large and Trophy",
+      "bundle": "fishs_assets_fishingame_91_sazan_big.bundle",
+      "patch": "patches/fishs_assets_fishingame_91_sazan_big.bundle.f4kp",
+      "textures": {
+        "color": [
+          "Sazan_Color"
+        ],
+        "normal": [
+          "Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        230257644789717698,
+        -1189986746815278451
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "a06ba512cb3e0ad899ef5ae5155102ab6923b441f9baba3cf7a9f195fab90ebf",
+          "after_sha256": "8a1fefef1384cae5a7d0669bdaf404f406d91506605f812b04ee64f6ebde560b"
+        },
+        {
+          "before_sha256": "8a1fefef1384cae5a7d0669bdaf404f406d91506605f812b04ee64f6ebde560b",
+          "after_sha256": "dff25938059cc9be650fa990b77523ea431c26b9266adce91f70c508328877b9"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "a06ba512cb3e0ad899ef5ae5155102ab6923b441f9baba3cf7a9f195fab90ebf",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 6997513,
+      "target_size": 32066642,
+      "source_sha256": "a06ba512cb3e0ad899ef5ae5155102ab6923b441f9baba3cf7a9f195fab90ebf",
+      "target_sha256": "dff25938059cc9be650fa990b77523ea431c26b9266adce91f70c508328877b9",
+      "patch_size": 29468560,
+      "patch_sha256": "03d57ba16ee7468d519c48afda04918c2aec4250002b1b4bb7c1d16b350799c5",
+      "changed_blocks": 31,
+      "raw_changed_bytes": 32066642
+    },
+    {
+      "species": "Largemouth Bass",
+      "bundle": "fishs_assets_fishingame_9_bassblack.bundle",
+      "patch": "patches/fishs_assets_fishingame_9_bassblack.bundle.f4kp",
+      "textures": {
+        "color": [
+          "LMB_PSD_d",
+          "LMB_PSD_s"
+        ],
+        "normal": []
+      },
+      "changed_texture_ids": [
+        2772437391748369900,
+        8945177386551753247
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "9fc8570e8d7b9b229db13bde0812bda625bc093e321fcb6447744b3bf7084dce",
+          "after_sha256": "f44fcb5a3e12dfb4468ea195a11c09c96fd3fab3b79865eb13f4c26586fe2605"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "9fc8570e8d7b9b229db13bde0812bda625bc093e321fcb6447744b3bf7084dce",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 823505,
+      "target_size": 27149042,
+      "source_sha256": "9fc8570e8d7b9b229db13bde0812bda625bc093e321fcb6447744b3bf7084dce",
+      "target_sha256": "f44fcb5a3e12dfb4468ea195a11c09c96fd3fab3b79865eb13f4c26586fe2605",
+      "patch_size": 25373348,
+      "patch_sha256": "29dbbf68c8e03bb22f1b998b57148114a144c3bea48b5614b4156fa8dbe86ceb",
+      "changed_blocks": 26,
+      "raw_changed_bytes": 27149042
+    },
+    {
+      "species": "Common Bream",
+      "bundle": "fishs_assets_fishingame_9_bream.bundle",
+      "patch": "patches/fishs_assets_fishingame_9_bream.bundle.f4kp",
+      "textures": {
+        "color": [
+          "C_Bream_Small",
+          "C_Bream_Trof"
+        ],
+        "normal": [
+          "C_Bream_Normal"
+        ]
+      },
+      "changed_texture_ids": [
+        8283057103446237579,
+        -8416913213338613820,
+        6664370296674873328
+      ],
+      "lineage_steps": [
+        {
+          "before_sha256": "755f52b15dd51dc3ee89c894796f5e0d257524f0fe70a239143d05fde792e360",
+          "after_sha256": "e79dfc6066b350b0d582379bef592dd2cf02b55c2942a26ef8311af8da877822"
+        },
+        {
+          "before_sha256": "e79dfc6066b350b0d582379bef592dd2cf02b55c2942a26ef8311af8da877822",
+          "after_sha256": "87ddfbf56ae9423109f0cb4d8e360d5e8ffe6b3d26f79df9374fc059e08402a7"
+        }
+      ],
+      "pristine_evidence": {
+        "kind": "retained_originals_directory",
+        "sha256": "755f52b15dd51dc3ee89c894796f5e0d257524f0fe70a239143d05fde792e360",
+        "verification_file": null
+      },
+      "journal_status": "installed_and_readback_verified",
+      "source_size": 23904136,
+      "target_size": 103799107,
+      "source_sha256": "755f52b15dd51dc3ee89c894796f5e0d257524f0fe70a239143d05fde792e360",
+      "target_sha256": "87ddfbf56ae9423109f0cb4d8e360d5e8ffe6b3d26f79df9374fc059e08402a7",
+      "patch_size": 92442315,
+      "patch_sha256": "ec068959c49772d48fb60a088de33f50857585724e87f1814a92d691ec7d3862",
+      "changed_blocks": 99,
+      "raw_changed_bytes": 103799107
+    }
+  ]
+}

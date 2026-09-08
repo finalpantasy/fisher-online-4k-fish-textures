@@ -5,7 +5,7 @@ The pack rebuilds fish color maps at 4096x4096, preserves the original UV
 layouts, and adds restrained species-appropriate normal-map detail where the
 game materials support it.
 
-Release **0.1.2** contains **91 journal-backed bundle patches** from the
+Release **0.1.3** contains **96 journal-backed bundle patches** from the
 current 310-bundle live inventory. Every included patch was rebuilt only after
 its installed live SHA-256 matched a unique successful journal lineage and an
 independently retained, authoritative pristine original. The release includes normal,
@@ -17,7 +17,7 @@ large, and trophy appearances where the game has dedicated bundles.
    Files > Verify integrity of game files**, and let it finish. This gives the
    installer the exact supported source version.
 2. Close Fisher Online.
-3. Download and extract every `v0.1.2` release part into separate normal
+3. Download and extract every `v0.1.3` release part into separate normal
    folders. Run each part's installer once; the order does not matter. The
    archive split keeps every GitHub release asset safely below its 2 GiB limit.
 4. Open PowerShell in the extracted folder and run:
