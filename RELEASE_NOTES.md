@@ -1,16 +1,21 @@
-## Fisher Online 4K Fish Textures v0.1.3
+## Fisher Online 4K Fish Textures v0.1.4
 
-This public preview expands from 91 to 96 currently verified bundle patches.
+This public preview expands from 96 to 133 currently verified bundle patches.
 
-- 96 version-locked patches selected from the authoritative 310-bundle live inventory
-- adds new or refreshed Stone Loach, Siberian Lamprey, Sharpbelly, Sattar
-  Snowtrout, Scaly Osman, Puzanok / Danube Shad, Allis Shad, and Albino Wels
-  Catfish patches while retaining only current hash-matched lineages
+- 133 version-locked patches selected from the authoritative 310-bundle live inventory
+- adds the current verified run through Norwegian Saithe, including Atka
+  Mackerel, Chinese Sturgeon, Mud Carp, Wuchang Bream, Blue Tilapia, three koi
+  families, Leaping Mullet, Lake Char, Rhone Trout, gobies, dace, salmon,
+  crayfish, shrimp, catfish, bass, and related rebuilt packages
+- Atka Mackerel and Norwegian Saithe use explicit dual-eye UV landmark checks;
+  Norwegian Saithe also audits its separately skinned body and fin meshes
+- every newly built package is checked after Unity serialization for 4096x4096
+  payloads, 13 mip levels, original-mesh appearance, and panel seams
 - every selected current live SHA-256 has a unique `installed_and_readback_verified`
   lineage back to an earliest recorded pristine rollback source
-- Chum Salmon, Baltic Salmon, and the original Yellowfin Tuna package are
-  temporarily omitted because their latest local eye repairs do not yet have
-  a complete publishable journal chain; the striped Yellowfin Tuna remains included
+- Chum Salmon and the original Yellowfin Tuna package remain temporarily
+  omitted because their latest local repairs do not yet have a complete
+  publishable journal chain; Baltic and Silver Salmon are included
 - Brook Charr (`Salvelinus fontinalis`) is correctly named for
   `fishs_assets_fishingame_74_palia.bundle`; it is not Arctic char
 - self-contained deterministic archive parts, each below GitHub's 2 GiB
