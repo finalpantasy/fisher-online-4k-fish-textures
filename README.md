@@ -1,5 +1,7 @@
 # Fisher Online 4K Fish Textures
 
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-buy%20me%20a%20coffee-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/finalpantasy)
+
 An ongoing high-resolution texture and material overhaul for **Fisher Online**.
 The pack rebuilds fish color maps at 4096x4096, preserves the original UV
 layouts, and adds restrained species-appropriate normal-map detail where the
@@ -101,3 +103,7 @@ shown on top and the rebuilt 4K texture on the bottom.
 | ![Arctic Char before and after](previews/arctic-char.jpg) | ![Squid before and after](previews/squid.jpg) |
 
 More comparison renders are available in the [`previews`](previews) folder.
+
+## Support
+
+Free hobby project. If it helps you, you can [buy me a coffee on Ko-fi](https://ko-fi.com/finalpantasy). Thank you!
